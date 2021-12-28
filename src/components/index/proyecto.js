@@ -32,7 +32,7 @@ export default function Proyectos(){
                     </div>
                 </div>
                 <div className='flex-1'>
-                    <img style={{height:"38rem"}} className='cover h-screen hidden lg:block' src='/fondos/TrabajosCampo_Permafrost.jpeg' />
+                    <img className='cover h-screen hidden lg:block height-section' src='/fondos/TrabajosCampo_Permafrost.jpeg' />
                     <h1></h1>
                 </div>
             </div>

@@ -1,6 +1,38 @@
 export const listaEventos = [
     {
         id:1,
+        titulo:"Temperatura media invernal de la superficie terrestre como indicadora del cambio climático en la Cordillera Vilcanota.",
+        evento:"Simposio internacional “Las Montañas: Nuestro Futuro” 2019 INAIGEM",
+        tipo:"Póster y abstract publicado",
+        autores:"Hairo Leon, Katy Medina y Edwin Loarte",
+        link:"https://inaigem.gob.pe/simposio/wp-content/uploads/2020/01/LIBRO-DE-RESU%CC%81MENES-Word-CUSCO.pdf"
+    },
+    {
+        id:2,
+        titulo:"Desarrollo y validación de una estación meteorológica de bajo costo para zonas de alta montaña.",
+        evento:"Simposio internacional “Las Montañas: Nuestro Futuro” 2019 INAIGEM",
+        tipo:"Póster y abstract publicado",
+        autores:"Jean Lujan y Cesar Verde",
+        link:"https://inaigem.gob.pe/simposio/wp-content/uploads/2020/01/LIBRO-DE-RESU%CC%81MENES-Word-CUSCO.pdf"
+    },
+    {
+        id:3,
+        titulo:"Thermal and morphological characteristics and spatial distribution of rock glaciers in the Cordillera Chila, southern Peru.",
+        evento:"EGU General Assembly 2019",
+        tipo:"Póster y abstract publicado",
+        autores:"Edwin Loarte, Katy Medina, Luzmila Dávila, Christian Huggel, Wilfried Haeberli, Holger Frey y Randy Muñoz",
+        link:"https://ui.adsabs.harvard.edu/abs/2019EGUGA..2110661L/abstract"
+    },
+    {
+        id:4,
+        titulo:"Influence of ENSO Climate Anomalies on Tropical Glaciers Retreat: Case Quillcay Catchment, Cordillera Blanca, Peru.",
+        evento:"AGU Fall Meeting 2020",
+        tipo:"Póster y abstract publicado",
+        autores:"Francisco Castillo, Katy Medina, Edwin Loarte y Hairo León",
+        link:"https://agu.confex.com/agu/fm20/meetingapp.cgi/Paper/720040"
+    },
+    {
+        id:5,
         titulo:"Remotely Piloted Aircraft System (RPAS) for glaciological studies: case, Pastoruri tropical glacier - Peru.",
         evento:"AGU Fall Meeting 2020",
         tipo:"Póster y abstract publicado",
@@ -8,7 +40,7 @@ export const listaEventos = [
         link:"https://agu.confex.com/agu/fm20/meetingapp.cgi/Paper/715803"
     },
     {
-        id:2,
+        id:6,
         titulo:"Línea de congelamiento como probable límite de la extensión del permafrost y su relación con la cobertura de nieve en la cordillera de los Andes de Perú.",
         evento:"Simposio Internacional “Las Montañas: Nuestro Futuro” 2020",
         tipo:"Ponencia oral",
@@ -16,7 +48,7 @@ export const listaEventos = [
         link:"https://www.facebook.com/InaigemPeru/videos/1094647120985366"
     },
     {
-        id:3,
+        id:7,
         titulo:"Evaluación y estimación de la distribución espacio temporal de permafrost a nivel nacional como potencial de reserva hídrica (PERMAFROST).",
         evento:"Viernes científico 2020",
         tipo:"Póster y abstract publicado",
@@ -24,7 +56,7 @@ export const listaEventos = [
         link:"https://www.inaigem.gob.pe/viernes-cientifico/"
     },
     {
-        id:4,
+        id:8,
         titulo:"Analysis of the spatial distribution and characteristics of the rock glaciers in the Ampato, Vilcanota and La Viuda Cordilleras southern and central Peru.",
         evento:"EGU General Assembly 2021",
         tipo:"Ponencia oral",

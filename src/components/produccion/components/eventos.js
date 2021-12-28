@@ -13,7 +13,7 @@ export default function Produccion(){
                                                 <h1 className='text-sm lg:text-base text-color font-bold'>{item.titulo}</h1>
                                                 <h1 className='text-sm text-gray-700 text-color '>{item.tipo}</h1>
                                             </div>
-                                <div className='flex flex-col items-start mt-5 h-20'>
+                                <div className='mt-5'>
                                     <h1 className='text-sm text-gray-700 text-color'><span className="font-bold">Evento:</span> {item.evento}</h1>
                                     <h1 className='text-sm text-gray-700 text-color mt-1'><span className="font-bold">Autores:</span> {item.autores}</h1>
                                     <a href={item.link} target="_blank"><h1 className={`text-sm text-gray-700 text-color mt-1 ${item.link === null?"hidden":"block"}`}><span className="font-bold">Enlace:</span> <span className='green-color font-bold'>Ver publicación</span></h1></a>

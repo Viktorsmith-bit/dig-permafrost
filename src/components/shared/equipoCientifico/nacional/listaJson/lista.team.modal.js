@@ -199,7 +199,7 @@ export const listTeamNacional= [
         equipo:'EQUIPO INAIGEM',
         profesion:'Ingeniero Ambiental',
         especialidad:'Especialización en "Modelamiento hidraulico e hidrologico" - CELAEP-UNMSM y Estudios finalizados en maestría en "Ciencias e Ingeniería con mención en Gestión Ambiental" - UNASAM.',
-        descripcion:'Ingeniero Ambiental de la Universidad Nacional Santiago Antúnez de Mayolo (UNASAM V superior), dedicado al uso de las herramientas de teledetección y los sistemas de información geográfica. Asistente de investigación en temáticas relacionadas a glaciares y ecosistemas de montaña.',
+        descripcion:'Ingeniero Ambiental de la UNASAM (quinto superior) dedicado al uso de las herramientas de teledetección y los sistemas de información geográfica. Investigador en proceso de formación en proyectos multidisciplinarios en temáticas relacionadas a ecosistemas glaciares y periglaciares, con conocimiento en el manejo de equipos y técnicas de monitoreo glaciológico. Fotógrafo aficionado y amante del senderismo en altamontaña.',
         correo:'mailto:fcastillouv@unasam.edu.pe',
         email:'Enviar correo',
         linkedin:null,

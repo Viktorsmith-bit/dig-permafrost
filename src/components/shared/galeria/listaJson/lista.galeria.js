@@ -57,6 +57,17 @@ export const ListModelamiento = [
         url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe2%2Fglaciar_kinzl_EM_prototipo2.jpeg?alt=media&token=2e121c0f-7d36-4e1a-b6b0-9c31964f6aa0',
         cover:"cover"
     },
+    {
+        id:4,
+        nombre:'Estación meteorológica, quebrada Llanganuco',
+        titulo:"ESTACIÓN METEOROLÓGICA, QUEBRADA LLANGANUCO",
+        subTitulo:"Glaciar cubierto Kinzl",
+        descripcion:'Instalación de una estación meteorológica de bajo costo, ubicada a 4490 m s.n.m. en la cordillera Blanca.',
+        lugar:'Ancash',
+        fecha:'Ago, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe2%2FQuillcayhuanca_EM_prototipo3.jpeg?alt=media&token=7da38b22-e700-4e1c-88e3-b9b6fafc49e4',
+        cover:"cover"
+    },
 ]
 
 export const ListImpactos = [
@@ -90,8 +101,8 @@ export const ListImpactos = [
         descripcion:'Recolección de datos registrados por el sensor de temperatura empleando el software FG2_Shell, una laptop y una antena inalámbrica con adaptador USB.',
         lugar:'Ancash',
         fecha:'Set, 2021',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe3%2FRecolecDataArtesonraju.jpeg?alt=media&token=02d560c3-5e39-4a57-b186-ad127aa47e3e',
-        cover:"cover"
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe3%2FRecolecDataArtesonraju.jpeg?alt=media&token=fea95339-39c6-43f4-811a-eb16827d00f6',
+        cover:"cover-paredes"
     },
     {
         id:4,
@@ -115,7 +126,7 @@ export const ListAdaptacion = [
         descripcion:`Glaciar rocoso San Félix (15°25'33.71"S, 72°10'34.55"O), ubicado en la cordillera Chila, distrito de Chachas, provincia de Castilla y departamento de Arequipa.`,
         lugar:'Arequipa',
         fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FGRSF.jpeg?alt=media&token=a1b92e2d-83c4-43b3-a132-75c7f74284cc',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FDique_LagSanFelix.JPG?alt=media&token=68170803-b8c0-4c03-af05-7f05fe0fd663',
         cover:"cover"
     },
     {
@@ -126,7 +137,7 @@ export const ListAdaptacion = [
         descripcion:"Glaciar rocoso San Félix en el fondo y ecosistemas circundantes.",
         lugar:'Arequipa',
         fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje.jpeg?alt=media&token=e1318072-aab4-42bb-b5bf-e58133d09c81',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FEM_SanFelix_20.JPG?alt=media&token=0d435102-d672-4e4e-90d7-a1e48b9256fc',
         cover:"cover"
     },
     {
@@ -137,7 +148,7 @@ export const ListAdaptacion = [
         descripcion:"Cuerpo de agua monitoreado para la evaluación del régimen hidrológico y calidad de agua.",
         lugar:'Arequipa',
         fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje1.jpeg?alt=media&token=c0245b2b-031f-4f65-937a-8b018235cbe5',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FGlaciarRocoso_SanFelix_19.JPG?alt=media&token=e3e2d08f-712a-4abb-8696-1d95c713bca0',
         cover:"cover"
     },
     {
@@ -148,7 +159,7 @@ export const ListAdaptacion = [
         descripcion:"Humedal formado entre el glaciar rocoso y la laguna San Félix, alimentado por la escorrentía del glaciar. Avistamiento de comunidades biológicas autóctonas (aves, roedores, etc.).",
         lugar:'Arequipa',
         fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje2.jpeg?alt=media&token=b5accb9d-a542-4aee-9fc7-1ad6690105dc',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FGlaciarRocoso_SanFelix_20.JPG?alt=media&token=126dcfd8-8e65-493b-b37e-617083dd941c',
         cover:"cover"
     },
     {
@@ -159,7 +170,7 @@ export const ListAdaptacion = [
         descripcion:"Vista del humedal y laguna alimentados por la escorrentía del glaciar rocoso San Félix.",
         lugar:'Arequipa',
         fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje3.jpeg?alt=media&token=4b47e004-611b-44f1-93ca-bc8c7557aea2',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FGlaciarRocoso_SanFelix_20_1.JPG?alt=media&token=f790c3b0-f3d3-404f-b103-a2671bd26061',
         cover:"cover"
     },
     {
@@ -170,7 +181,7 @@ export const ListAdaptacion = [
         descripcion:"Punto de descarga de la laguna, ubicado en la parte baja de la quebrada San Félix.",
         lugar:'Arequipa',
         fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje4.jpeg?alt=media&token=398c4fbe-d8dd-415f-b096-5db8b2ae8203',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FGlaciarRocoso_SanFelix_20_2.JPG?alt=media&token=2d0bf6fa-951e-4bf3-898a-33714aa93687',
         cover:"cover"
     },
     {
@@ -181,7 +192,7 @@ export const ListAdaptacion = [
         descripcion:"Glaciar rocoso San Félix en el fondo y ecosistemas circundantes.",
         lugar:'Arequipa',
         fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisajeGRSF1.jpeg?alt=media&token=10bfce8a-424b-4bac-b59f-7c700840f272',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FGlaciarRocoso_SanFelix_20_3.JPG?alt=media&token=636ebb89-540e-41aa-9fd6-5554e0185143',
         cover:"cover"
     },
     {
@@ -192,7 +203,139 @@ export const ListAdaptacion = [
         descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
         lugar:'Ancash                           ',
         fecha:'Jul, 2019',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2Ffondo_valle_quillcayhuanca.jpeg?alt=media&token=20de7d0c-2ffc-4155-bd58-f8ec647532ac',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FGlaciarRocoso_SanFelix_20_4.jpg?alt=media&token=51e06af5-9ebf-43fb-a769-86890505ebce',
+        cover:"cover"
+    },
+    {
+        id:9,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash                           ',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FGlaciarRocoso_SanFelix_20_5.jpg?alt=media&token=30b20062-daae-4508-af53-f7f6917a34ec',
+        cover:"cover"
+    },
+    {
+        id:10,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash                           ',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FGlaciarRocoso_SanFelix_20_6.JPG?alt=media&token=c3ba6b97-75dc-4892-95f4-36e94c091a35',
+        cover:"cover"
+    },
+    {
+        id:11,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash                           ',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FGlaciarRocoso_SanFelix_20_7.JPG?alt=media&token=1094fbe5-2428-4245-ad4f-c3469be8a7f0',
+        cover:"cover"
+    },
+    {
+        id:12,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash                           ',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FGlaciar_Kinzl_20.JPG?alt=media&token=d97bbbd4-7619-456f-8a97-6a4513c8beb3',
+        cover:"cover"
+    },
+    {
+        id:13,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash                           ',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FLag_SanFelix_20.jpg?alt=media&token=ab5f8ee8-ff1b-45c4-8f15-fae9092aa39c',
+        cover:"cover"
+    },
+    {
+        id:14,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash                           ',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FNevado_Coropuna_20.jpg?alt=media&token=84b3114f-5d8e-4b1e-b617-523b3be5759a',
+        cover:"cover"
+    },
+    {
+        id:15,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash                           ',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FNevado_Kinzl_20.JPG?alt=media&token=39f920f4-f7bd-43ff-83e5-478f3a0974ad',
+        cover:"cover"
+    },
+    {
+        id:16,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash                           ',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FParedesRoca_Artesonraju.JPG?alt=media&token=c5f739be-a303-49b5-9048-53a189514a82',
+        cover:"cover"
+    },
+    {
+        id:17,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash                           ',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FQuebrada_Quillcayhuanca_20.JPG?alt=media&token=0cfc0fda-f34f-4a05-8b08-0d5c352d82df',
+        cover:"cover"
+    },
+    {
+        id:18,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash                           ',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FQuebrada_Quillcayhuanca_20_1.JPG?alt=media&token=ffed4daf-65ef-464f-a88b-874ae2c3383c',
+        cover:"cover"
+    },
+    {
+        id:19,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash                           ',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FQuebrada_SanFelix_20.JPG?alt=media&token=ef2cc30d-62f0-441e-8d45-66b50fa21323',
+        cover:"cover"
+    },
+    {
+        id:20,
+        nombre:'Quebrada de Quillcayhuanca',
+        titulo:"QUEBRADA DE QUILLCAYHUANCA",
+        subTitulo:"Cordillera Blanca",
+        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
+        lugar:'Ancash                           ',
+        fecha:'Jul, 2019',
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FQuebrada_SanFelix_20_1.JPG?alt=media&token=f0e24967-25c0-4a9b-bf55-d5778be78cf6',
         cover:"cover"
     },
 ]
@@ -283,106 +426,7 @@ export const todoList = [
         descripcion:'Recolección de datos registrados por el sensor de temperatura empleando el software FG2_Shell, una laptop y una antena inalámbrica con adaptador USB.',
         lugar:'Ancash',
         fecha:'Set, 2021',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe3%2FRecolecDataArtesonraju.jpeg?alt=media&token=02d560c3-5e39-4a57-b186-ad127aa47e3e',
-        cover:"cover"
-    },
-    {
-        id:9,
-        nombre:'Red de Dataloggers',
-        titulo:"RED DE DATALOGGERS",
-        subTitulo:"Glaciar rocoso San Félix",
-        descripcion:'Instalación de sensores de temperatura en toda la superficie del glaciar rocoso San Félix.',
-        lugar:'Arequipa',
-        fecha:'Nov, 2019',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe3%2FSensorInst.jpeg?alt=media&token=2edd4d92-2de9-46fb-a003-8ba7839c3d92',
-        cover:"cover"
-    },
-    {
-        id:10,
-        nombre:'Glaciar rocoso San Félix',
-        titulo:"GLACIAR ROCOSO SAN FÉLIX",
-        subTitulo:"Cordillera Chila",
-        descripcion:`Glaciar rocoso San Félix (15°25'33.71"S, 72°10'34.55"O), ubicado en la cordillera Chila, distrito de Chachas, provincia de Castilla y departamento de Arequipa.`,
-        lugar:'Arequipa',
-        fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FGRSF.jpeg?alt=media&token=a1b92e2d-83c4-43b3-a132-75c7f74284cc',
-        cover:"cover"
-    },
-    {
-        id:11,
-        nombre:'Quebrada San Félix',
-        titulo:"QUEBRADA SAN FÉLIX",
-        subTitulo:"Cordillera Chila",
-        descripcion:"Glaciar rocoso San Félix en el fondo y ecosistemas circundantes.",
-        lugar:'Arequipa',
-        fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje.jpeg?alt=media&token=e1318072-aab4-42bb-b5bf-e58133d09c81',
-        cover:"cover"
-    },
-    {
-        id:12,
-        nombre:'Escorrentía del glaciar rocoso',
-        titulo:"ESCORRENTÍA DEL GLACIAR ROCOSO",
-        subTitulo:"Quebrada San Félix",
-        descripcion:"Cuerpo de agua monitoreado para la evaluación del régimen hidrológico y calidad de agua.",
-        lugar:'Arequipa',
-        fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje1.jpeg?alt=media&token=c0245b2b-031f-4f65-937a-8b018235cbe5',
-        cover:"cover"
-    },
-    {
-        id:13,
-        nombre:'Humedal',
-        titulo:"HUMEDAL",
-        subTitulo:"Quebrada San Félix",
-        descripcion:"Humedal formado entre el glaciar rocoso y la laguna San Félix, alimentado por la escorrentía del glaciar. Avistamiento de comunidades biológicas autóctonas (aves, roedores, etc.).",
-        lugar:'Arequipa',
-        fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje2.jpeg?alt=media&token=b5accb9d-a542-4aee-9fc7-1ad6690105dc',
-        cover:"cover"
-    },
-    {
-        id:14,
-        nombre:'Ecosistemas fluviales',
-        titulo:"ECOSISTEMAS FLUVIALES",
-        subTitulo:"Quebrada San Félix",
-        descripcion:"Vista del humedal y laguna alimentados por la escorrentía del glaciar rocoso San Félix.",
-        lugar:'Arequipa',
-        fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje3.jpeg?alt=media&token=4b47e004-611b-44f1-93ca-bc8c7557aea2',
-        cover:"cover"
-    },
-    {
-        id:15,
-        nombre:'Descarga de la represa de la Laguna San Félix',
-        titulo:"DESCARGA DE LA REPRESA DE LA LAGUNA SAN FÉLIX",
-        subTitulo:"Quebrada San Félix",
-        descripcion:"Punto de descarga de la laguna, ubicado en la parte baja de la quebrada San Félix.",
-        lugar:'Arequipa',
-        fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisaje4.jpeg?alt=media&token=398c4fbe-d8dd-415f-b096-5db8b2ae8203',
-        cover:"cover"
-    },
-    {
-        id:16,
-        nombre:'Quebrada San Félix',
-        titulo:"QUEBRADA SAN FÉLIX",
-        subTitulo:"Cordillera Chila",
-        descripcion:"Glaciar rocoso San Félix en el fondo y ecosistemas circundantes.",
-        lugar:'Arequipa',
-        fecha:'Nov, 2020',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2FPaisajeGRSF1.jpeg?alt=media&token=10bfce8a-424b-4bac-b59f-7c700840f272',
-        cover:"cover"
-    },
-    {
-        id:17,
-        nombre:'Quebrada de Quillcayhuanca',
-        titulo:"QUEBRADA DE QUILLCAYHUANCA",
-        subTitulo:"Cordillera Blanca",
-        descripcion:"Vista de panorámica del fondo de la quebrada de Quillcayhuanca, desde la estación meteorológica de bajo costo.",
-        lugar:'Ancash                           ',
-        fecha:'Jul, 2019',
-        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Fpaisajes%2Ffondo_valle_quillcayhuanca.jpeg?alt=media&token=20de7d0c-2ffc-4155-bd58-f8ec647532ac',
-        cover:"cover"
-    },
+        url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe3%2FRecolecDataArtesonraju.jpeg?alt=media&token=fea95339-39c6-43f4-811a-eb16827d00f6',
+        cover:"cover-paredes"
+    }
 ]
