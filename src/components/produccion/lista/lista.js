@@ -1,7 +1,7 @@
 export const listaEventos = [
     {
         id:1,
-        titulo:"Temperatura media invernal de la superficie terrestre como indicadora del cambio climático en la Cordillera Vilcanota.",
+        titulo:"Temperatura media invernal de la superficie terrestre como indicadora del cambio climático en la Cordillera Vilcanota",
         evento:"Simposio internacional “Las Montañas: Nuestro Futuro” 2019 INAIGEM",
         tipo:"Póster y abstract publicado",
         autores:"Hairo Leon, Katy Medina y Edwin Loarte",
@@ -9,7 +9,7 @@ export const listaEventos = [
     },
     {
         id:2,
-        titulo:"Desarrollo y validación de una estación meteorológica de bajo costo para zonas de alta montaña.",
+        titulo:"Desarrollo y validación de una estación meteorológica de bajo costo para zonas de alta montaña",
         evento:"Simposio internacional “Las Montañas: Nuestro Futuro” 2019 INAIGEM",
         tipo:"Póster y abstract publicado",
         autores:"Jean Lujan y Cesar Verde",
@@ -17,7 +17,7 @@ export const listaEventos = [
     },
     {
         id:3,
-        titulo:"Thermal and morphological characteristics and spatial distribution of rock glaciers in the Cordillera Chila, southern Peru.",
+        titulo:"Thermal and morphological characteristics and spatial distribution of rock glaciers in the Cordillera Chila, southern Peru",
         evento:"EGU General Assembly 2019",
         tipo:"Póster y abstract publicado",
         autores:"Edwin Loarte, Katy Medina, Luzmila Dávila, Christian Huggel, Wilfried Haeberli, Holger Frey y Randy Muñoz",
@@ -25,7 +25,7 @@ export const listaEventos = [
     },
     {
         id:4,
-        titulo:"Influence of ENSO Climate Anomalies on Tropical Glaciers Retreat: Case Quillcay Catchment, Cordillera Blanca, Peru.",
+        titulo:"Influence of ENSO Climate Anomalies on Tropical Glaciers Retreat: Case Quillcay Catchment, Cordillera Blanca, Peru",
         evento:"AGU Fall Meeting 2020",
         tipo:"Póster y abstract publicado",
         autores:"Francisco Castillo, Katy Medina, Edwin Loarte y Hairo León",
@@ -33,7 +33,7 @@ export const listaEventos = [
     },
     {
         id:5,
-        titulo:"Remotely Piloted Aircraft System (RPAS) for glaciological studies: case, Pastoruri tropical glacier - Peru.",
+        titulo:"Remotely Piloted Aircraft System (RPAS) for glaciological studies: case, Pastoruri tropical glacier - Peru",
         evento:"AGU Fall Meeting 2020",
         tipo:"Póster y abstract publicado",
         autores:"Alexzander Santiago Martel, Edwin Aníbal Loarte Cadenas y Katy Damacia Medina Marcos",
@@ -41,7 +41,7 @@ export const listaEventos = [
     },
     {
         id:6,
-        titulo:"Línea de congelamiento como probable límite de la extensión del permafrost y su relación con la cobertura de nieve en la cordillera de los Andes de Perú.",
+        titulo:"Línea de congelamiento como probable límite de la extensión del permafrost y su relación con la cobertura de nieve en la cordillera de los Andes de Perú",
         evento:"Simposio Internacional “Las Montañas: Nuestro Futuro” 2020",
         tipo:"Ponencia oral",
         autores:"Hairo León, Katy Medina y Pedro Valladares",
@@ -49,7 +49,7 @@ export const listaEventos = [
     },
     {
         id:7,
-        titulo:"Evaluación y estimación de la distribución espacio temporal de permafrost a nivel nacional como potencial de reserva hídrica (PERMAFROST).",
+        titulo:"Evaluación y estimación de la distribución espacio temporal de permafrost a nivel nacional como potencial de reserva hídrica (PERMAFROST)",
         evento:"Viernes científico 2020",
         tipo:"Póster y abstract publicado",
         autores:"Katy Medina Marcos / Equipo Permafrost",
@@ -57,7 +57,7 @@ export const listaEventos = [
     },
     {
         id:8,
-        titulo:"Analysis of the spatial distribution and characteristics of the rock glaciers in the Ampato, Vilcanota and La Viuda Cordilleras southern and central Peru.",
+        titulo:"Analysis of the spatial distribution and characteristics of the rock glaciers in the Ampato, Vilcanota and La Viuda Cordilleras southern and central Peru",
         evento:"EGU General Assembly 2021",
         tipo:"Ponencia oral",
         autores:"Katy Medina, Edwin Loarte, Edwin Badillo Rivera, Hairo León, Xavier Bodin y Christian Huggel",
