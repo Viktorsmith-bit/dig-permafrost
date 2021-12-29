@@ -179,35 +179,23 @@ export default function MapViewer(){
                 {
                     map.open === "2"?<TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png"
+                    url="https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png"
                     />:null
                 }
                 {
                     map.open === "3"?<TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png"
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     />:null
                 }
                 {
                     map.open === "4"?<TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                    />:null
-                }
-                {
-                    map.open === "5"?<TileLayer
-                    attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
-                    />:null
-                }
-                {
-                    map.open === "6"?<TileLayer
-                    attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
                     />:null
                 }
                 {
-                    map.open === "7"?<TileLayer
+                    map.open === "5"?<TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://tile.osm.ch/switzerland/{z}/{x}/{y}.png"
                     />:null

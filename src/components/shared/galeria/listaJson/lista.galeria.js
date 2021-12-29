@@ -6,7 +6,7 @@ export const ListSocios = [
         subTitulo:"Quebrada San Félix (Arequipa)",
         descripcion:'Fotogrametría aérea RPA (dron) de la quebrada San Félix para el monitoreo y mapeo de los ecosistemas terrestres presentes.',
         lugar:'Unidad hidrográfica 134616',
-        fecha:'nov, 2020',
+        fecha:'Nov, 2020',
         url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe1%2FDrone_GRSanFelix_e.jpeg?alt=media&token=670cc08f-b54e-4f58-952d-267464618785',
         cover:"cover"
     },
@@ -17,7 +17,7 @@ export const ListSocios = [
         subTitulo:"Quebrada San Félix (Arequipa)",
         descripcion:'Vuelo aéreo del dron en la quebrada San Félix para el monitoreo y mapeo de la dinámica del glaciar rocoso San Félix y ecosistemas terrestres presentes.',
         lugar:'Unidad hidrográfica 134616',
-        fecha:'nov, 2020',
+        fecha:'Nov, 2020',
         url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe1%2FGRSanFelix.jpeg?alt=media&token=c575c998-4d50-4c1a-b05a-0d5308595626',
         cover:"cover"
     }
@@ -348,7 +348,7 @@ export const todoList = [
         subTitulo:"Quebrada San Félix (Arequipa)",
         descripcion:'Fotogrametría aérea RPA (dron) de la quebrada San Félix para el monitoreo y mapeo de los ecosistemas terrestres presentes.',
         lugar:'Unidad hidrográfica 134616',
-        fecha:'nov, 2020',
+        fecha:'Nov, 2020',
         url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe1%2FDrone_GRSanFelix_e.jpeg?alt=media&token=670cc08f-b54e-4f58-952d-267464618785',
         cover:"cover"
     },
@@ -359,7 +359,7 @@ export const todoList = [
         subTitulo:"Quebrada San Félix (Arequipa)",
         descripcion:'Vuelo aéreo del dron en la quebrada San Félix para el monitoreo y mapeo de la dinámica del glaciar rocoso San Félix y ecosistemas terrestres presentes.',
         lugar:'Unidad hidrográfica 134616',
-        fecha:'nov, 2020',
+        fecha:'Nov, 2020',
         url:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/galeria%2Foe1%2FGRSanFelix.jpeg?alt=media&token=c575c998-4d50-4c1a-b05a-0d5308595626',
         cover:"cover"
     },
