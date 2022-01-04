@@ -52,6 +52,7 @@ export default function Galeria(){
                     </div>
                 </div>
             </div>
+            <img className='h-48 lg:h-64 w-full cover border-b border-gray-300' src="/logos/perugrows/ProduccionCientifica_Proyectos_v4.png" />
             {state.event?<Eventos />:null}
             {state.articulos?null:<Articulos />}
             {state.tesis?null:<Tesis />}
