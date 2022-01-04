@@ -1,6 +1,6 @@
 import React from 'react';
 import {useState} from 'react';
-import dynamic from 'next/dynamic';
+import {MapContainer, TileLayer} from "react-leaflet";
 import Creditos from './components/creditos';
 import Geoportal from './components/geoportal';
 import LeftAside from './components/leftAside';
@@ -34,9 +34,6 @@ import Scp2017V1 from './dataBase/nieve/scp_2017_v1';
 import Scp2018V1 from './dataBase/nieve/scp_2018_v1';
 import Scp2019V1 from './dataBase/nieve/scp_2019_v1';
 import Scp2020V1 from './dataBase/nieve/scp_2020_v1';
-
-const MapContainer = dynamic(()=>import('react-leaflet').then((mod)=>mod.MapContainer), {ssr: false});
-const TileLayer = dynamic(()=>import('react-leaflet').then((mod)=>mod.TileLayer), {ssr: false});
 
 export default function MapViewer(){
     const [map, setMap] = useState({open:"1"});

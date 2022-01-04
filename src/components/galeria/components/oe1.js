@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
-import ModalSistema from '../../shared/galeria/modal.sistema';
-import { ListSocios } from '../../shared/galeria/listaJson/lista.galeria';
+import ModalSistema from '../../shared/galeria/modal.oe1';
+import { listaOE1 } from '../../shared/galeria/listaJson/lista.galeria';
 
 export default function Socios(){
     const [state, setState] = useState({open:false});
@@ -34,7 +34,7 @@ export default function Socios(){
             <div className='flex justify-center'>
                 <div className='flex flex-1 justify-center lg:justify-start flex-wrap w-full lg:max-w-7xl gap-3 px-4 lg:px-0'>
                     {
-                        ListSocios.map((item)=>{
+                        listaOE1.map((item)=>{
                             return <div className='galeria relative'>
                                 <img id={item.id} onClick={openModal} className='cover galeria cursor-pointer' src={`${item.url}`} />
                                 <div onClick={openModal} className='absolute bottom-0 left-0 opacity-image flex items-center px-4 h-16 w-full cursor-pointer'>

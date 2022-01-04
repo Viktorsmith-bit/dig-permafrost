@@ -1,7 +1,9 @@
 import Head from 'next/head';
+import dynamic from 'next/dynamic';
 import Layout from '../../src/layout';
-import MapViewer from '../../src/components/visor/map.view';
 import React from 'react';
+
+const MapViewer = dynamic(()=>import('../../src/components/visor/map.view'), {ssr: false});
 
 export default function Home() {
 
@@ -14,7 +16,9 @@ export default function Home() {
           <script src="https://kit.fontawesome.com/5b116e3d11.js" crossorigin="anonymous"></script>
       </Head>
       <main>
-          <MapViewer />
+          <div id="map">
+            <MapViewer />
+          </div>
       </main>
     </Layout>
   )

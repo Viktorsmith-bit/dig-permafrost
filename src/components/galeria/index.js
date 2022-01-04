@@ -2,10 +2,10 @@ import Link from 'next/link';
 import React, { Fragment } from 'react';
 import { useState } from 'react';
 import Footer from '../shared/footer/footer';
-import Sistema from './components/sistema';
-import Modelamiento from './components/modelamiento';
-import Impactos from './components/impactos';
-import Adaptacion from './components/adaptacion';
+import OE1 from './components/oe1';
+import OE2 from './components/oe2';
+import OE4 from './components/oe4';
+import Paisajes from './components/paisajes';
 import Todo from './components/todo';
 
 export default function Galeria(){ 
@@ -85,22 +85,22 @@ export default function Galeria(){
             }
             {
                 !state.socios?<Fragment>
-                    <Sistema />
+                    <OE1 />
                 </Fragment>:null
             }
             {
                 !state.modelamiento?<Fragment>
-                    <Modelamiento />
+                    <OE2 />
                 </Fragment>:null
             }
             {
                 !state.impactos?<Fragment>
-                    <Impactos />
+                    <OE4 />
                 </Fragment>:null
             }
             {
                 !state.paisaje?<Fragment>
-                    <Adaptacion />
+                    <Paisajes />
                 </Fragment>:null
             }
             <Footer />

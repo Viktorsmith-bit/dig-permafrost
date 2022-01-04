@@ -1,12 +1,10 @@
 import React from 'react';
-import dynamic from 'next/dynamic';
+import {GeoJSON} from "react-leaflet";
 import {useState, useEffect} from 'react';
 import { Fragment } from "react";
 import {app} from '../../../../../firebase.config';
 import {ref, onValue} from "firebase/database";
-import loadConfig from 'next/dist/server/config';
-
-const GeoJSON = dynamic(()=>import('react-leaflet').then((mod)=>mod.GeoJSON), {ssr: false});
+import Loading from '../../components/loading';
 
 function CuencaRioSanta(){
     const [state, setState] = useState();

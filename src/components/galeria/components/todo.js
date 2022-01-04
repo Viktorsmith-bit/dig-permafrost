@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import ModalTodo from '../../shared/galeria/modal.todo';
-import { todoList } from '../../shared/galeria/listaJson/lista.galeria';
+import { listaTodo } from '../../shared/galeria/listaJson/lista.galeria';
 
 export default function Socios(){
     const [state, setState] = useState({open:false});
@@ -35,7 +35,7 @@ export default function Socios(){
             <div className='flex justify-center'>
                 <div className='flex flex-1 justify-center lg:justify-start flex-wrap w-full lg:max-w-7xl gap-3 px-4 lg:px-0'>
                     {
-                        todoList.map((item)=>{
+                        listaTodo.map((item)=>{
                             return <div className='galeria relative'>
                                 <img id={item.id} onClick={openModal} className='cover galeria cursor-pointer' src={`${item.url}`} />
                                 <div onClick={openModal} className='absolute bottom-0 left-0 opacity-image flex items-center px-4 h-16 w-full cursor-pointer'>

@@ -104,9 +104,9 @@ export default function ListCapas(props){
                     </div>
                     <div className='px-4 py-2'>
                         <h1 className='text-sm'>Fotografías panorámicas</h1>
-                        <div className='px-4 mt-2'>
-                            <div className='flex items-center gap-2'>
-                                <div className='h-4 w-4 bg-blue-300 rounded-full'></div>
+                        <div className='px-3 mt-2'>
+                            <div className='flex items-end gap-1'>
+                                <img className='h-6 w-6' src='/location.png' />
                                 <h1 className='text-sm'>Fotografías 360</h1>
                             </div>
                         </div>

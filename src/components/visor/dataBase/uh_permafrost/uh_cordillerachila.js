@@ -1,12 +1,10 @@
 import React from 'react';
-import dynamic from 'next/dynamic';
+import {GeoJSON} from "react-leaflet";
 import {useState, useEffect} from 'react';
 import { Fragment } from "react";
 import {app} from '../../../../../firebase.config';
 import {ref, onValue} from "firebase/database";
 import Loading from '../../components/loading';
-
-const GeoJSON = dynamic(()=>import('react-leaflet').then((mod)=>mod.GeoJSON), {ssr: false});
 
 function UhCordilleraChila(){
     const [state, setState] = useState();

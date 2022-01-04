@@ -1,4 +1,4 @@
-export const ListSocios = [
+export const listaOE1 = [
     {
         id:1,
         nombre:'Fotogrametría aérea RPA (dron)',
@@ -23,7 +23,7 @@ export const ListSocios = [
     }
 ]   
 
-export const ListModelamiento = [
+export const listaOE2 = [
     {
         id:1,
         nombre:'Descarga de datos meteorológicos',
@@ -70,7 +70,7 @@ export const ListModelamiento = [
     },
 ]
 
-export const ListImpactos = [
+export const listaOE4 = [
     {
         id:1,
         nombre:'Instalación de sensores de temperatura ',
@@ -117,7 +117,7 @@ export const ListImpactos = [
     }
 ]
 
-export const ListAdaptacion = [
+export const listaPaisajes = [
     {
         id:1,
         nombre:'Dique de la laguna San Félix',
@@ -340,7 +340,7 @@ export const ListAdaptacion = [
     },
 ]
 
-export const todoList = [
+export const listaTodo = [
     {
         id:1,
         nombre:'Fotogrametría aérea RPA (dron)',

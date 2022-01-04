@@ -1,9 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
-import { ListModelamiento } from '../../shared/galeria/listaJson/lista.galeria';
-import ModalModelamiento from '../../shared/galeria/modal.modelamiento';
+import { listaPaisajes } from '../../shared/galeria/listaJson/lista.galeria';
+import ModalAdaptacion from '../../shared/galeria/modal.paisajes';
 
-export default function Modelamiento(){
+export default function Adaptacion(){
     const [state, setState] = useState({open:false});
     const [item, setItem] = useState({idItem:''});
 
@@ -18,7 +18,7 @@ export default function Modelamiento(){
         const x = document.getElementsByTagName('BODY')[0];
         x.style.overflow = 'hidden';
     }
-    
+
     function closeModal(e){
         e.preventDefault();
         setState({open:false})
@@ -29,12 +29,12 @@ export default function Modelamiento(){
     return(
         <div className='py-10'>
             {
-                !state.open?null:<ModalModelamiento close={closeModal} idItem={item.idItem}/>
+                !state.open?null:<ModalAdaptacion close={closeModal} idItem={item.idItem}/>
             }
             <div className='flex justify-center'>
-                <div className='flex flex-1 justify-center lg:justify-start flex-wrap max-w-7xl gap-3'>
+                <div className='flex flex-1 justify-center lg:justify-start flex-wrap w-full lg:max-w-7xl gap-3 px-4 lg:px-0'>
                     {
-                        ListModelamiento.map((item)=>{
+                        listaPaisajes.map((item)=>{
                             return <div className='galeria relative'>
                                 <img id={item.id} onClick={openModal} className='cover galeria cursor-pointer' src={`${item.url}`} />
                                 <div onClick={openModal} className='absolute bottom-0 left-0 opacity-image flex items-center px-4 h-16 w-full cursor-pointer'>

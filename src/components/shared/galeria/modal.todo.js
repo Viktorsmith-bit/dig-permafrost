@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import { todoList } from './listaJson/lista.galeria';
+import { listaTodo } from './listaJson/lista.galeria';
 import React from 'react';
 
 export default function Modal(props){
@@ -9,13 +9,13 @@ export default function Modal(props){
 
     const back = (e)=>{
         e.preventDefault();
-        if(state < todoList.length){
+        if(state < listaTodo.length){
             return setState(state + 1);
         }
     }
     const next = (e)=>{
         e.preventDefault();
-        if(state > todoList[0].id){
+        if(state > listaTodo[0].id){
             return setState(state - 1)
         }
     }
@@ -27,7 +27,7 @@ export default function Modal(props){
                     <div className='flex items-center justify-between'>
                         <code><h1 onClick={next} className='hidden lg:flex justify-center items-center bg-gray-100 color w-12 h-12 text-xl cursor-pointer'>{`<`}</h1></code>
                         <div className='flex items-center justify-center'>
-                            {todoList.map((e) =>{
+                            {listaTodo.map((e) =>{
                                 if(e.id === state){
                                     return <div className='flex flex-col lg:flex-row h-screen lg:h-auto'>
                                         <div className='relative'>

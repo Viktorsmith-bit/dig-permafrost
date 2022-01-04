@@ -1,6 +1,6 @@
 import React from 'react';
 import {useState} from 'react';
-import { ListImpactos} from './listaJson/lista.galeria';
+import { listaOE2} from './listaJson/lista.galeria';
 
 export default function Modal(props){
     const [state, setState] = useState(()=>{
@@ -9,13 +9,13 @@ export default function Modal(props){
 
     const back = (e)=>{
         e.preventDefault();
-        if(state < ListImpactos.length){
+        if(state < listaOE2.length){
             return setState(state + 1);
         }
     }
     const next = (e)=>{
         e.preventDefault();
-        if(state > ListImpactos[0].id){
+        if(state > listaOE2[0].id){
             return setState(state - 1)
         }
     }
@@ -27,7 +27,7 @@ export default function Modal(props){
                     <div className='flex items-center justify-between'>
                         <code><h1 onClick={next} className='hidden lg:flex justify-center items-center bg-gray-100 color w-12 h-12 text-xl cursor-pointer'>{`<`}</h1></code>
                         <div className='flex items-center justify-center'>
-                            {ListImpactos.map((e) =>{
+                            {listaOE2.map((e) =>{
                                 if(e.id === state){
                                     return <div className='flex flex-col lg:flex-row h-screen lg:h-auto'>
                                         <div className='relative'>
