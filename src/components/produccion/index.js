@@ -8,14 +8,10 @@ import Footer from '../shared/footer/footer';
 export default function Galeria(){ 
     const [state, setState] = useState({event: true, articulos:true, tesis:true, patentes:true});
     
-    const eventos = (e)=>{e.preventDefault(), setState({event: true, articulos:true, tesis:true, patentes:true})
-    }
-    const articulos = (e)=>{e.preventDefault(); setState({event: false, articulos:false, tesis:true, patentes:true})
-    }
-    const tesis = (e)=>{e.preventDefault(); setState({event: false, articulos:true, tesis:false, patentes:true})
-    }
-    const patentes = (e)=>{e.preventDefault(); setState({event: false, articulos:true, tesis:true, patentes:false})
-    }
+    const eventos = (e)=>{e.preventDefault(), setState({event: true, articulos:true, tesis:true, patentes:true})}
+    const articulos = (e)=>{e.preventDefault(); setState({event: false, articulos:false, tesis:true, patentes:true})}
+    const tesis = (e)=>{e.preventDefault(); setState({event: false, articulos:true, tesis:false, patentes:true})}
+    const patentes = (e)=>{e.preventDefault(); setState({event: false, articulos:true, tesis:true, patentes:false})}
 
     return(
         <div className=''>
