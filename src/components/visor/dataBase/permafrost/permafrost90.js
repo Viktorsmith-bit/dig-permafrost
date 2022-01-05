@@ -14,7 +14,7 @@ function Permafrost90(){
             return new Promise((resolve)=>{
                 onValue(starCountRef, (snapshot) => {
                     const dbRef = snapshot.val();
-                    resolve(dbRef)
+                    resolve(dbRef.features)
                 })
             })
             .then((result)=>{

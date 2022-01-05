@@ -14,7 +14,7 @@ function UhCordilleraBlanca(){
             return new Promise((resolve)=>{
                 onValue(starCountCor, (snapshot) => {
                     const dbRef = snapshot.val();
-                    resolve(dbRef)
+                    resolve(dbRef.features)
                 })
             })
             .then((result)=>{
