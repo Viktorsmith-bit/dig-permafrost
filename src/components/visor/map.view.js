@@ -166,7 +166,7 @@ export default function MapViewer(){
                  hundleClickOpenScp2020={hundleClickOpenScp2020} hundleClickCloseScp2020={hundleClickCloseScp2020} scp2020={scp2020}
             />
              {stateOpen?null:<Panoramicas hundleClicClose360={hundleClicClose360} state={state.open} />}
-            <MapContainer center={[-14.414974922615183, -72.242071978681196]} zoom={7} scrollWheelZoom={true} >
+            <MapContainer center={[-12.114974922615183, -75.842071978681196]} zoom={6.5} scrollWheelZoom={true} >
                 {
                     map.open === "1"?<TileLayer
                         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
