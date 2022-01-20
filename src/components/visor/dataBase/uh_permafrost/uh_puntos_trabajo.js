@@ -15,7 +15,7 @@ function PuntosTrabajo(){
             return new Promise((resolve)=>{
                 onValue(starCountCor, (snapshot) => {
                     const dbRef = snapshot.val();
-                    resolve(dbRef.features)
+                    resolve(dbRef)
                 })
             })
             .then((result)=>{
