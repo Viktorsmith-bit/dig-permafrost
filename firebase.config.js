@@ -3,12 +3,13 @@ import { initializeApp } from "firebase/app";
 import { getDatabase} from "firebase/database";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCo9I4iigFMDqX7_5eoAZdj1iEdQ1wnR4c",
-    authDomain: "proyecto-permafrost-45b38.firebaseapp.com",
-    projectId: "proyecto-permafrost-45b38",
-    storageBucket: "proyecto-permafrost-45b38.appspot.com",
-    messagingSenderId: "508507138893",
-    appId: "1:508507138893:web:2f04b0efd87f7bd8042504"
+    apiKey: "AIzaSyAE63lyUSgs-UYYfJTbIASz6MWi9wi3rIw",
+    authDomain: "permafrost-datavector2.firebaseapp.com",
+    databaseURL: "https://permafrost-datavector2-default-rtdb.firebaseio.com",
+    projectId: "permafrost-datavector2",
+    storageBucket: "permafrost-datavector2.appspot.com",
+    messagingSenderId: "801372098784",
+    appId: "1:801372098784:web:a36f3b3c3930f45fe08085"
 };
 
 initializeApp(firebaseConfig);

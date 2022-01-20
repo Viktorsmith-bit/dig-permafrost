@@ -1,6 +1,7 @@
 import React from 'react';
 import {GeoJSON} from "react-leaflet";
 import {useState, useEffect} from 'react';
+import ReactDOMServer from 'react-dom/server';
 import { Fragment } from "react";
 import {app} from '../../../../../firebase.config';
 import {ref, onValue} from "firebase/database";
@@ -42,10 +43,33 @@ function Scp2004V1(){
                atribute === "294 - 365" ? '#003994':null
     }
     
+    const Popup = ({ feature }) => {
+        let popupContent;
+        if (feature.properties && feature.properties.popupContent) {
+          popupContent = feature.properties.popupContent;
+        }
+        return (
+            <Fragment>
+                <p>
+                    <span className='font-bold'>Rango:</span> {feature.properties.Rango}
+                    <br></br>
+                    <span className='font-bold'>Unidad:</span> {feature.properties.Unidad}
+                </p>
+            </Fragment>
+        );
+    };
+
+    const onEachFeature = (feature, layer) => {
+        const popupContent = ReactDOMServer.renderToString(
+            <Popup feature={feature} />
+        );
+        layer.bindPopup(popupContent);
+    };
+
     return(
         <Fragment>
             {
-                data === undefined?<Loading />:<GeoJSON data={data}  style={(feature)=>{
+                data === undefined?<Loading />:<GeoJSON data={data} onEachFeature={onEachFeature} style={(feature)=>{
                     return {
                             color:colorOptions(feature.properties.Rango),
                             weight: 0,

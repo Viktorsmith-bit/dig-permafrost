@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function Financiamiento(){
+    const [state, setState] = useState({number:"1"});
+    const eventoHundle = (e)=>{
+        e.preventDefault();
+        setState({number:e.target.id})
+    }
     return(
         <div className='flex items-center py-10 lg:h-screen px-4 height-section' id='financiamiento'>
             <div className='flex flex-col items-center w-full md:max-w-2xl lg:max-w-6xl mx-auto'>

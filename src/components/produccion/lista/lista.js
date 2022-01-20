@@ -124,7 +124,7 @@ export const listaTesis = [
     },
     {
         id:3,
-        titulo: "Desarrollo y validación de prototipo de estación meteorológica de bajo costo para el registro de mediciones metereologicas en zonas de alta montaña",
+        titulo: "Desarrollo y validación de prototipo de estación meteorológica de bajo costo para el registro de mediciones meteorológicas en zonas de alta montaña",
         tesista:"Jean Pol Juniors Luján León ",
         tipo:"Pregrado",
         universidad:"UNFV",

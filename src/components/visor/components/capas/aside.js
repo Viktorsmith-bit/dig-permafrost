@@ -5,25 +5,24 @@ import Leyenda from './components/leyenda';
 import Tilelayer from './components/tilelayer';
 
 export default function Aside(props){
-    const [state, setState] = useState({capas:false, leyenda:false, tilelayer:false})
+    const [state, setState] = useState({capas:true, leyenda:false, tilelayer:false})
 
     const handleClickOpen = (e)=>{e.preventDefault(), setState({capas:true})}
     const handleClickClose = (e)=>{e.preventDefault(), setState({capas:false})}
     const handleClickOpenLey = (e)=>{e.preventDefault(), setState({leyenda:true})}
     const handleClickCloseLey = (e)=>{e.preventDefault(), setState({leyenda:false})}
-
     const handleClickOpenTil = (e)=>{e.preventDefault(), setState({tilelayer:true})}
     const handleClickCloseTil = (e)=>{e.preventDefault(), setState({tilelayer:false})}
 
     return(
-        <div>
+        <div className='capas'>
             {
-                !state.capas?<div onClick={handleClickOpen} style={{zIndex:"1000"}} className='flex items-center justify-center w-10 h-10 absolute z-20 top-3 right-3 rounded-sm bg-white cursor-pointer'>
+                state.capas?<div onClick={handleClickClose} style={{zIndex:"1000"}} className='flex items-center justify-center w-10 h-10 absolute z-20 top-3 right-3 rounded-sm bg-white cursor-pointer'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="325" fill="#434040" className="bi bi-stack" viewBox="0 0 16 16">
                         <path d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.598.598 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.598.598 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.598.598 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535L7.733.063z"/>
                         <path d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z"/>
                     </svg>
-                </div>:<div onClick={handleClickClose} style={{zIndex:"1000"}} className='flex items-center justify-center w-10 h-10 absolute z-20 top-3 right-3 rounded-sm bg-white cursor-pointer'>
+                </div>:<div onClick={handleClickOpen} style={{zIndex:"1000"}} className='flex items-center justify-center w-10 h-10 absolute z-20 top-3 right-3 rounded-sm bg-white cursor-pointer'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#434040" className="bi bi-stack" viewBox="0 0 16 16">
                         <path d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.598.598 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.598.598 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.598.598 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535L7.733.063z"/>
                         <path d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z"/>
@@ -43,7 +42,6 @@ export default function Aside(props){
                     </svg>
                 </div>
             }
-
             {
                 !state.tilelayer?<div onClick={handleClickOpenTil} className='flex items-center justify-center cursor-pointer w-10 h-10 rounded-sm bg-white absolute z-20 top-24 right-3 mt-1' style={{zIndex:"1000"}}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#434040" className="cursor-pointer bi bi-grid-fill" viewBox="0 0 16 16">
@@ -56,37 +54,29 @@ export default function Aside(props){
                 </div>
             }
              
-            {!state.capas?null:<Capas 
-
+            {state.capas?<Capas 
+                cor={props.cor} corBlanca={props.corBlanca} corChila={props.corChila} 
+                foto360={props.foto360} inv={props.inv} corPeru={props.corPeru} puntosTrabajo={props.puntosTrabajo}
+                hundleClickEstadoVisor={props.hundleClickEstadoVisor}
                 hundleClickClosePanam={props.hundleClickClosePanam} hundleClickOpenPanam={props.hundleClickOpenPanam} panam={props.panam}
                 hundleClickOpen={props.hundleClickOpen} hundleClickClose={props.hundleClickClose} estado={props.estado} 
-                hundleClickOpenChila={props.hundleClickOpenChila} hundleClickCloseChila={props.hundleClickCloseChila} corchila={props.corchila}
-                hundleClickOpenCor={props.hundleClickOpenCor} hundleClickCloseCor={props.hundleClickCloseCor} cor={props.cor}
-                hundleClickOpenInv={props.hundleClickOpenInv} hundleClickCloseInv={props.hundleClickCloseInv} inv={props.inv}
-                hundleClickOpenPer30={props.hundleClickOpenPer30} hundleClickClosePer30={props.hundleClickClosePer30} per30={props.per30}
-                hundleClickOpenPer90={props.hundleClickOpenPer90} hundleClickClosePer90={props.hundleClickClosePer90} per90={props.per90}
-                hundleClickOpenScp2002={props.hundleClickOpenScp2002} hundleClickCloseScp2002={props.hundleClickCloseScp2002} scp2002={props.scp2002}
-                hundleClickOpenScp2003={props.hundleClickOpenScp2003} hundleClickCloseScp2003={props.hundleClickCloseScp2003} scp2003={props.scp2003}
-                hundleClickOpenScp2004={props.hundleClickOpenScp2004} hundleClickCloseScp2004={props.hundleClickCloseScp2004} scp2004={props.scp2004}
-                hundleClickOpenScp2005={props.hundleClickOpenScp2005} hundleClickCloseScp2005={props.hundleClickCloseScp2005} scp2005={props.scp2005}
-                hundleClickOpenScp2006={props.hundleClickOpenScp2006} hundleClickCloseScp2006={props.hundleClickCloseScp2006} scp2006={props.scp2006}
-                hundleClickOpenScp2007={props.hundleClickOpenScp2007} hundleClickCloseScp2007={props.hundleClickCloseScp2007} scp2007={props.scp2007}
-                hundleClickOpenScp2008={props.hundleClickOpenScp2008} hundleClickCloseScp2008={props.hundleClickCloseScp2008} scp2008={props.scp2008}
-                hundleClickOpenScp2009={props.hundleClickOpenScp2009} hundleClickCloseScp2009={props.hundleClickCloseScp2009} scp2009={props.scp2009}
-                hundleClickOpenScp2010={props.hundleClickOpenScp2010} hundleClickCloseScp2010={props.hundleClickCloseScp2010} scp2010={props.scp2010}
-                hundleClickOpenScp2011={props.hundleClickOpenScp2011} hundleClickCloseScp2011={props.hundleClickCloseScp2011} scp2011={props.scp2011}
-                hundleClickOpenScp2012={props.hundleClickOpenScp2012} hundleClickCloseScp2012={props.hundleClickCloseScp2012} scp2012={props.scp2012}
-                hundleClickOpenScp2013={props.hundleClickOpenScp2013} hundleClickCloseScp2013={props.hundleClickCloseScp2013} scp2013={props.scp2013}
-                hundleClickOpenScp2014={props.hundleClickOpenScp2014} hundleClickCloseScp2014={props.hundleClickCloseScp2014} scp2014={props.scp2014}
-                hundleClickOpenScp2015={props.hundleClickOpenScp2015} hundleClickCloseScp2015={props.hundleClickCloseScp2015} scp2015={props.scp2015}
-                hundleClickOpenScp2016={props.hundleClickOpenScp2016} hundleClickCloseScp2016={props.hundleClickCloseScp2016} scp2016={props.scp2016}
-                hundleClickOpenScp2017={props.hundleClickOpenScp2017} hundleClickCloseScp2017={props.hundleClickCloseScp2017} scp2017={props.scp2017}
-                hundleClickOpenScp2018={props.hundleClickOpenScp2018} hundleClickCloseScp2018={props.hundleClickCloseScp2018} scp2018={props.scp2018}
-                hundleClickOpenScp2019={props.hundleClickOpenScp2019} hundleClickCloseScp2019={props.hundleClickCloseScp2019} scp2019={props.scp2019}
-                hundleClickOpenScp2020={props.hundleClickOpenScp2020} hundleClickCloseScp2020={props.hundleClickCloseScp2020} scp2020={props.scp2020}
-            />}
-            {!state.leyenda?null:<Leyenda />}
-            {!state.tilelayer?null: <Tilelayer openMap={props.openMap} />}
+                scp2002={props.scp2002} scp2003={props.scp2003} scp2004={props.scp2004} scp2005={props.scp2005} scp2006={props.scp2006} scp2007={props.scp2007}
+                scp2008={props.scp2008} scp2009={props.scp2009} scp2010={props.scp2010} scp2011={props.scp2011} scp2012={props.scp2012} scp2013={props.scp2013}
+                scp2014={props.scp2014} scp2015={props.scp2015} scp2016={props.scp2016} scp2017={props.scp2017} scp2018={props.scp2018} scp2019={props.scp2019}
+                scp2020={props.scp2020} per30Ampato={props.per30Ampato} per30Apolobamba={props.per30Apolobamba} per30Barroso={props.per30Barroso}
+                per30Blanca={props.per30Blanca} per30Carabaya={props.per30Carabaya} per30Central={props.per30Central} per30Chila={props.per30Chila}
+                per30Chonta={props.per30Chonta} per30Huagoruncho={props.per30Huagoruncho} per30Huallanca={props.per30Huallanca} per30Huanzo={props.per30Huanzo}
+                per30Huayhuash={props.per30Huayhuash} per30Huaytapallana={props.per30Huaytapallana} per30LaRaya={props.per30LaRaya} per30LaViuda={props.per30LaViuda}
+                per30Otros={props.per30Otros} per30Raura={props.per30Raura} per30Urubamba={props.per30Urubamba} per30Vilcabamba={props.per30Vilcabamba} per30Vilcanota={props.per30Vilcanota}
+                per30Volcanica={props.per30Volcanica} per90Ampato={props.per90Ampato} per90Apolobamba={props.per90Apolobamba} per90Barroso={props.per90Barroso}
+                per90Blanca={props.per90Blanca} per90Carabaya={props.per90Carabaya} per90Central={props.per90Central} per90Chila={props.per90Chila}
+                per90Chonta={props.per90Chonta} per90Huagoruncho={props.per90Huagoruncho} per90Huallanca={props.per90Huallanca} per90Huanzo={props.per90Huanzo}
+                per90Huayhuash={props.per90Huayhuash} per90Huaytapallana={props.per90Huaytapallana} per90LaRaya={props.per90LaRaya} per90LaViuda={props.per90LaViuda}
+                per90Otros={props.per90Otros} per90Raura={props.per90Raura} per90Urubamba={props.per90Urubamba} per90Vilcabamba={props.per90Vilcabamba} per90Vilcanota={props.per90Vilcanota}
+                per90Volcanica={props.per90Volcanica} handleClickClose={handleClickClose}
+            />:null}
+            {!state.leyenda?null:<Leyenda handleClickClose={handleClickClose} />}
+            {!state.tilelayer?null:<Tilelayer openMap={props.openMap} handleClickClose={handleClickClose} />}
         </div>
     );
 }
