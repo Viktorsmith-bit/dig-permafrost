@@ -16,6 +16,7 @@ export default function Produccion(){
                                 <div className='mt-5'>
                                     <h1 className='text-sm text-gray-700 text-color'><span className="font-bold">Revista:</span> {item.revista}</h1>
                                     <h1 className='text-sm text-gray-700 text-color mt-1'><span className="font-bold">Autores:</span> {item.autores}</h1>
+                                    <h1 className='text-sm text-gray-700 text-color mt-1'><span className="font-bold">DOI:</span> {item.doi}</h1>
                                     <a href={item.link} target="_blank"><h1 className={`text-sm text-gray-700 text-color mt-1 ${item.link === null?"hidden":"block"}`}><span className="font-bold">Enlace:</span> <span className='green-color font-bold'>Ver publicación</span></h1></a>
                                 </div>
                             </div>

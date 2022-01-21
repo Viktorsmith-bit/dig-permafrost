@@ -104,7 +104,7 @@ export const listaArticulos = [
         revista:"ASCE Publications / Regional Conference on Permafrost 2021 and the 19th International Conference on Cold Regions Engineering",
         tipo:"Articulo de conferencia",
         autores:"Edwin Badillo-Rivera, Edwin Loarte, Katy Medina, Xavier Bodin, Guillermo Azócar y Diego Cusicanqui",
-        doi:"https://doi.org/10.1061/9780784483589.010",
+        doi:"10.1061/9780784483589.010",
         link:"https://ascelibrary.org/doi/abs/10.1061/9780784483589.010"
     },
     {
@@ -113,7 +113,7 @@ export const listaArticulos = [
         revista:"ASCE Publications / Regional Conference on Permafrost 2021 and the 19th International Conference on Cold Regions Engineering",
         tipo:"Articulo de conferencia",
         autores:"Hairo León, Katy Medina, Edwin Loarte, Guillermo Azócar, Pablo Iribarren y Christian Huggel",
-        doi:"https://doi.org/10.1061/9780784483589.011",
+        doi:"10.1061/9780784483589.011",
         link:"https://ascelibrary.org/doi/10.1061/9780784483589.011"
     },
     {
@@ -122,7 +122,16 @@ export const listaArticulos = [
         revista:"IEEE Xplore / 2021 IEEE XXVIII International Conference on Electronics, Electrical Engineering and Computing (INTERCON)",
         tipo:"Articulo de conferencia",
         autores:"Jean Lujan, Pablo Iribarren, Katy Medina y Cesar Verde",
-        doi:"",
+        doi:"10.1109/INTERCON52678.2021.9532835",
+        link:"https://ieeexplore.ieee.org/document/9532835"
+    },
+    {
+        id:4,
+        titulo:"Surface elevation and ice thickness data between 2012 and 2020 at the ablation area of Artesonraju Glacier, Cordillera Blanca, Perú",
+        revista:"Earth System Science Data",
+        tipo:"Artículo de revista",
+        autores:"Jonathan Oberreuter, Edwin Badillo-Rivera, Edwin Loarte, Katy Medina, Alejo Cochachin y José Uribe",
+        doi:"10.5194/essd-2021-336",
         link:"https://ieeexplore.ieee.org/document/9532835"
     }
 ]
