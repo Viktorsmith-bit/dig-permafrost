@@ -49,20 +49,52 @@ export const listaEventos = [
     },
     {
         id:7,
+        titulo:"Tecnologías de información geográfica para determinar la dinámica de los glaciares de roca como formas de permafrost",
+        evento:"Simposio Internacional “Las Montañas: Nuestro Futuro” 2020 INAIGEM",
+        tipo:"Ponencia oral",
+        autores:"Edwin Badillo, Katy Medina y Edwin Loarte",
+        link:"https://www.facebook.com/InaigemPeru/videos/1094647120985366"
+    },
+    {
+        id:8,
         titulo:"Evaluación y estimación de la distribución espacio temporal de permafrost a nivel nacional como potencial de reserva hídrica (PERMAFROST)",
         evento:"Viernes científico 2020",
-        tipo:"Póster y abstract publicado",
+        tipo:"Ponencia oral",
         autores:"Katy Medina Marcos / Equipo Permafrost",
         link:"https://www.inaigem.gob.pe/viernes-cientifico/"
     },
     {
-        id:8,
+        id:9,
         titulo:"Analysis of the spatial distribution and characteristics of the rock glaciers in the Ampato, Vilcanota and La Viuda Cordilleras southern and central Peru",
         evento:"EGU General Assembly 2021",
-        tipo:"Ponencia oral",
+        tipo:"Póster y abstract publicado",
         autores:"Katy Medina, Edwin Loarte, Edwin Badillo Rivera, Hairo León, Xavier Bodin y Christian Huggel",
         link:"https://meetingorganizer.copernicus.org/EGU21/EGU21-8466.html"
-    }
+    },
+    {
+        id:10,
+        titulo:"Mountain Permafrost in the Tropical Andes of Peru: The 0°C Isotherm as a Potential Indicator",
+        evento:"Regional Conference on Permafrost 2021 and the 19th International Conference on Cold Regions Engineering",
+        tipo:"Póster y abstract publicado",
+        autores:"Hairo León, Katy Medina, Edwin Loarte, Guillermo Azócar, Pablo Iribarren y Christian Huggel",
+        link:"https://www.uspermafrost.org/technical-sessions#S_19"
+    },
+    {
+        id:11,
+        titulo:"An Estimation of Past and Present Air Temperature Conditions, Water Equivalent, and Surface Velocity of Rock Glaciers in Cordillera Volcanica, Peru",
+        evento:"Regional Conference on Permafrost 2021 and the 19th International Conference on Cold Regions Engineering",
+        tipo:"Póster y abstract publicado",
+        autores:"Edwin Badillo-Rivera, Edwin Loarte, Katy Medina, Xavier Bodin, Guillermo Azócar y Diego Cusicanqui",
+        link:"https://www.uspermafrost.org/technical-sessions#S_21"
+    },
+    {
+        id:12,
+        titulo:"Design, Development and Implementation of a Low Cost Weather Station for high mountains",
+        evento:"2021 IEEE XXVIII International Conference on Electronics, Electrical Engineering and Computing (INTERCON)",
+        tipo:"Ponencia oral",
+        autores:"ean Lujan, Pablo Iribarren, Katy Medina y Cesar Verde",
+        link:"https://www.facebook.com/InterconPeru/videos/?ref=page_internal"
+    },
 ]
 
 export const listaArticulos = [

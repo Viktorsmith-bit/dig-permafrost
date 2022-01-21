@@ -47,11 +47,11 @@ function UhCordilleraChila(){
                 <p>
                     <span className='font-bold'>Cordillera:</span> {feature.properties.Cordillera}
                     <br></br>
-                    <span className='font-bold'>Nombre:</span> {feature.properties.Nombre}
+                    <span className='font-bold'>Unidad hidrográfica:</span> {feature.properties.Nombre}
                     <br></br>
                     <span className='font-bold'>Actividad:</span> {feature.properties.Actividad}<span>.</span>
                     <br></br>
-                    <span className='font-bold'>Área (km2):</span> {feature.properties.Area_km2}
+                    <span className='font-bold'>Área km<sup>2</sup>:</span> {feature.properties.Area_km2}
                 </p>
             </Fragment>
         );

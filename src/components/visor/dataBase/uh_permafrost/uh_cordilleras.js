@@ -47,7 +47,7 @@ function Cordilleras(){
                 <p>
                     <span className='font-bold'>Cordillera:</span> {feature.properties.Cordillera}
                     <br></br>
-                    <span className='font-bold'>Área (km2):</span> {feature.properties.Area_km2}
+                    <span className='font-bold'>Área km<sup>2</sup>:</span> {feature.properties.Area_km2}
                 </p>
             </Fragment>
         );

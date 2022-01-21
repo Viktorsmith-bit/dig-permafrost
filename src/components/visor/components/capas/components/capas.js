@@ -55,8 +55,8 @@ export default function ListCapas(props){
                         }
                         {
                             !amb?null:<div className='px-6 mt-2'>
-                                {props.corPeru === "openCorPeru"?<div className='flex gap-1'><InputOpen/><h1 id="closeCorPeru" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Cordilleras de intervención</h1></div>:
-                                <div className='flex gap-1'><InputClose/><h1 id="openCorPeru" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Cordilleras de intervención</h1></div>}
+                                {props.corPeru === "openCorPeru"?<div className='flex gap-1'><InputOpen/><h1 id="closeCorPeru" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Cordilleras de trabajo</h1></div>:
+                                <div className='flex gap-1'><InputClose/><h1 id="openCorPeru" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Cordilleras de trabajo</h1></div>}
                                 {props.corBlanca === "openCorBlanca"?<div className='flex gap-1'><InputOpen/><h1 id="closeCorBlanca" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Unidades hidrográficas de cordillera Blanca</h1></div>:
                                 <div className='flex gap-1'><InputClose/><h1 id="openCorBlanca" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Unidades hidrográficas de cordillera Blanca</h1></div>}
                                 {props.corChila === "openCorChila"?<div className='flex items-center gap-1'><InputOpen/><h1 id="closeCorChila" onClick={props.hundleClickEstadoVisor} className='text-sm cursor-pointer text-color'>Unidad hidrográfica de cordillera Chila</h1></div>:

@@ -65,7 +65,7 @@ function PuntosTrabajo(){
     };
 
     let MarkerOptions = {
-        radius: 8,
+        radius: 6,
         fillColor: "#ff7800",
         color: "#000",
         weight: 1,

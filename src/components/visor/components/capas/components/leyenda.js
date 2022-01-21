@@ -28,7 +28,7 @@ export default function ListCapas(props){
                         <div className='px-4 mt-2'>
                             <div className='flex items-center gap-2'>
                                 <div className='h-4 w-4 rounded-sm' style={{backgroundColor:"red"}}></div>
-                                <h1 className='text-sm'>Cordilleras de intervención</h1>
+                                <h1 className='text-sm'>Cordilleras de trabajo</h1>
                             </div>
                             <div className='flex items-center gap-2'>
                                 <div className='h-4 w-4 bg-blue-300 rounded-sm'></div>
