@@ -3,14 +3,15 @@ import { initializeApp } from "firebase/app";
 import { getDatabase} from "firebase/database";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAE63lyUSgs-UYYfJTbIASz6MWi9wi3rIw",
-    authDomain: "permafrost-datavector2.firebaseapp.com",
-    databaseURL: "https://permafrost-datavector2-default-rtdb.firebaseio.com",
-    projectId: "permafrost-datavector2",
-    storageBucket: "permafrost-datavector2.appspot.com",
-    messagingSenderId: "801372098784",
-    appId: "1:801372098784:web:a36f3b3c3930f45fe08085"
+    apiKey: "AIzaSyDSTPc0wMpqRxz1OE6vHX8mBHSvO5xqaTU",
+    authDomain: "uhnieve-datavector.firebaseapp.com",
+    databaseURL: "https://uhnieve-datavector-default-rtdb.firebaseio.com",
+    projectId: "uhnieve-datavector",
+    storageBucket: "uhnieve-datavector.appspot.com",
+    messagingSenderId: "985829272719",
+    appId: "1:985829272719:web:2b197d61ef84d4997194fa"
 };
 
 initializeApp(firebaseConfig);
+
 export const app =  getDatabase();

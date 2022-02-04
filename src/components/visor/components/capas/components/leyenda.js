@@ -16,14 +16,14 @@ export default function ListCapas(props){
             </div>
             <div className='overFlow-hidden h-96'>
                 <div className='overflow-auto overscroll-auto h-96'>
-                    <div className='px-4 py-2'>
+                    <div className='px-4 pt-2'>
                         <h1 className='text-sm'>Cordilleras glaciares del Perú</h1>
                         <div className='flex items-center gap-2 px-4 mt-2'>
                             <div className='h-4 w-4 bg-gray-900 rounded-sm'></div>
                             <h1 className='text-sm'>Límites de las cordilleras</h1>
                         </div>
                     </div>
-                    <div className='px-4 py-2'>
+                    <div className='px-4 pt-2'>
                         <h1 className='text-sm'>Ámbitos de intervención</h1>
                         <div className='px-4 mt-2'>
                             <div className='flex items-center gap-2'>
@@ -44,7 +44,7 @@ export default function ListCapas(props){
                             </div>
                         </div>
                     </div>
-                    <div className='px-4 py-2'>
+                    <div className='px-4 pt-2'>
                         <h1 className='text-sm'>Inventario nacional de glaciares rocosos del Péru</h1>
                         <div className='px-4 mt-2'>
                             <h1 className='text-sm'>Actividad</h1>
@@ -67,7 +67,7 @@ export default function ListCapas(props){
                         </div>
                     </div>
                     {/*PERMAFROST**/}
-                    <div className='px-4 py-2'>
+                    <div className='px-4 pt-2'>
                         <h1 className='text-sm'>Modelo probabilístico de presencia de permafrost</h1>
                         <div className='px-4 mt-2'>
                             <h1 className='text-sm'>Probabilidad</h1>
@@ -95,7 +95,7 @@ export default function ListCapas(props){
                     </div>
                     
                     {/*NIEVE**/}
-                    <div className='px-4 py-2'>
+                    <div className='px-4 pt-2'>
                         <h1 className='text-sm'>Modelo de persistencia de nieve</h1>
                         <div className='px-4 mt-2'>
                             <h1 className='text-sm'>Rangos (días/año)</h1>
@@ -121,10 +121,23 @@ export default function ListCapas(props){
                             </div>
                         </div>
                     </div>
+                    <div className='px-4 pt-2'>
+                        <h1 className='text-sm'>Inventario nacional de glaciares y lagunas de origen glaciar</h1>
+                        <div className='px-4 mt-2'>
+                            <div className='flex items-center gap-2 mt-2'>
+                                <div className='h-4 w-4 rounded-sm' style={{backgroundColor:"#d5ecfd"}} ></div>
+                                <h1 className='text-sm'>Glaciares</h1>
+                            </div>
+                            <div className='flex items-center gap-2'>
+                                <div className='h-4 w-4 rounded-sm' style={{backgroundColor:"#499285"}} ></div>
+                                <h1 className='text-sm'>Lagunas de origen de glaciar</h1>
+                            </div>
+                        </div>
+                    </div>
                     <div className='px-4 py-2'>
                         <h1 className='text-sm'>Fotografías panorámicas</h1>
                         <div className='px-3 mt-2'>
-                            <div className='flex items-center gap-1'>
+                            <div className='flex items-center gap-1.5'>
                                 <img className='h-6 w-6' src='/camera.png' />
                                 <h1 className='text-sm'>Fotografías 360</h1>
                             </div>

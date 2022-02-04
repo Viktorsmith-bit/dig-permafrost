@@ -1,9 +1,7 @@
-import React from 'react';
+import React, {useState, useEffect, Fragment} from 'react';
 import {GeoJSON} from "react-leaflet";
-import {useState, useEffect} from 'react';
 import ReactDOMServer from 'react-dom/server';
-import { Fragment } from "react";
-import {app} from '../../../../../../firebase.config';
+import {app} from '../../../../../../firebase/firebase.per30.config';
 import {ref, onValue} from "firebase/database";
 import Loading from '../../../components/loading';
 
@@ -15,7 +13,7 @@ function Per30_Ampato(){
             return new Promise((resolve)=>{
                 onValue(starCountRef, (snapshot) => {
                     const dbRef = snapshot.val();
-                    resolve(dbRef.features)
+                    resolve(dbRef)
                 })
             })
             .then((result)=>{
@@ -58,6 +56,7 @@ function Per30_Ampato(){
             </Fragment>
         );
     };
+    
     const onEachFeature = (feature, layer) => {
         const popupContent = ReactDOMServer.renderToString(
             <Popup feature={feature} />

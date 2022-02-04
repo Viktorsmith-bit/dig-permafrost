@@ -1,8 +1,6 @@
-import React from 'react';
+import React, {useState, useEffect, Fragment} from 'react';
 import {GeoJSON} from "react-leaflet";
 import ReactDOMServer from 'react-dom/server';
-import {useState, useEffect} from 'react';
-import { Fragment } from "react";
 import {app} from '../../../../../firebase.config';
 import {ref, onValue} from "firebase/database";
 import Loading from '../../components/loading';
