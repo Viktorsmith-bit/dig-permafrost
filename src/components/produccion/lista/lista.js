@@ -1,6 +1,14 @@
 export const listaEventos = [
     {
         id:1,
+        titulo:"Análisis de la distribución espacial y características morfo térmicas de los glaciares de roca en el sur del Perú : Caso, cordilleras Huanzo y Chila",
+        evento:"I Simposio de Glaciares Tropicales 2019 UTEC",
+        tipo:"Póster y ponencia oral",
+        autores:"Katy Medina / Equipo Permafrost",
+        link:null
+    },
+    {
+        id:2,
         titulo:"Temperatura media invernal de la superficie terrestre como indicadora del cambio climático en la Cordillera Vilcanota",
         evento:"Simposio internacional “Las Montañas: Nuestro Futuro” 2019 INAIGEM",
         tipo:"Póster y abstract publicado",
@@ -8,7 +16,7 @@ export const listaEventos = [
         link:"https://inaigem.gob.pe/simposio/wp-content/uploads/2020/01/LIBRO-DE-RESU%CC%81MENES-Word-CUSCO.pdf"
     },
     {
-        id:2,
+        id:3,
         titulo:"Desarrollo y validación de una estación meteorológica de bajo costo para zonas de alta montaña",
         evento:"Simposio internacional “Las Montañas: Nuestro Futuro” 2019 INAIGEM",
         tipo:"Póster y abstract publicado",
@@ -16,7 +24,7 @@ export const listaEventos = [
         link:"https://inaigem.gob.pe/simposio/wp-content/uploads/2020/01/LIBRO-DE-RESU%CC%81MENES-Word-CUSCO.pdf"
     },
     {
-        id:3,
+        id:4,
         titulo:"Thermal and morphological characteristics and spatial distribution of rock glaciers in the Cordillera Chila, southern Peru",
         evento:"EGU General Assembly 2019",
         tipo:"Póster y abstract publicado",
@@ -24,7 +32,7 @@ export const listaEventos = [
         link:"https://ui.adsabs.harvard.edu/abs/2019EGUGA..2110661L/abstract"
     },
     {
-        id:4,
+        id:5,
         titulo:"Influence of ENSO Climate Anomalies on Tropical Glaciers Retreat: Case Quillcay Catchment, Cordillera Blanca, Peru",
         evento:"AGU Fall Meeting 2020",
         tipo:"Póster y abstract publicado",
@@ -32,7 +40,7 @@ export const listaEventos = [
         link:"https://agu.confex.com/agu/fm20/meetingapp.cgi/Paper/720040"
     },
     {
-        id:5,
+        id:6,
         titulo:"Remotely Piloted Aircraft System (RPAS) for glaciological studies: case, Pastoruri tropical glacier - Peru",
         evento:"AGU Fall Meeting 2020",
         tipo:"Póster y abstract publicado",
@@ -40,7 +48,7 @@ export const listaEventos = [
         link:"https://agu.confex.com/agu/fm20/meetingapp.cgi/Paper/715803"
     },
     {
-        id:6,
+        id:7,
         titulo:"Línea de congelamiento como probable límite de la extensión del permafrost y su relación con la cobertura de nieve en la cordillera de los Andes de Perú",
         evento:"Simposio Internacional “Las Montañas: Nuestro Futuro” 2020",
         tipo:"Ponencia oral",
@@ -48,7 +56,7 @@ export const listaEventos = [
         link:"https://www.facebook.com/InaigemPeru/videos/1094647120985366"
     },
     {
-        id:7,
+        id:8,
         titulo:"Tecnologías de información geográfica para determinar la dinámica de los glaciares de roca como formas de permafrost",
         evento:"Simposio Internacional “Las Montañas: Nuestro Futuro” 2020 INAIGEM",
         tipo:"Ponencia oral",
@@ -56,7 +64,7 @@ export const listaEventos = [
         link:"https://www.facebook.com/InaigemPeru/videos/1094647120985366"
     },
     {
-        id:8,
+        id:9,
         titulo:"Evaluación y estimación de la distribución espacio temporal de permafrost a nivel nacional como potencial de reserva hídrica (PERMAFROST)",
         evento:"Viernes científico 2020",
         tipo:"Ponencia oral",
@@ -64,7 +72,7 @@ export const listaEventos = [
         link:"https://www.inaigem.gob.pe/viernes-cientifico/"
     },
     {
-        id:9,
+        id:10,
         titulo:"Analysis of the spatial distribution and characteristics of the rock glaciers in the Ampato, Vilcanota and La Viuda Cordilleras southern and central Peru",
         evento:"EGU General Assembly 2021",
         tipo:"Póster y abstract publicado",
@@ -72,7 +80,7 @@ export const listaEventos = [
         link:"https://meetingorganizer.copernicus.org/EGU21/EGU21-8466.html"
     },
     {
-        id:10,
+        id:11,
         titulo:"Mountain Permafrost in the Tropical Andes of Peru: The 0°C Isotherm as a Potential Indicator",
         evento:"Regional Conference on Permafrost 2021 and the 19th International Conference on Cold Regions Engineering",
         tipo:"Póster y abstract publicado",
@@ -80,7 +88,7 @@ export const listaEventos = [
         link:"https://www.uspermafrost.org/technical-sessions#S_19"
     },
     {
-        id:11,
+        id:12,
         titulo:"An Estimation of Past and Present Air Temperature Conditions, Water Equivalent, and Surface Velocity of Rock Glaciers in Cordillera Volcanica, Peru",
         evento:"Regional Conference on Permafrost 2021 and the 19th International Conference on Cold Regions Engineering",
         tipo:"Póster y abstract publicado",
@@ -88,7 +96,7 @@ export const listaEventos = [
         link:"https://www.uspermafrost.org/technical-sessions#S_21"
     },
     {
-        id:12,
+        id:13,
         titulo:"Design, Development and Implementation of a Low Cost Weather Station for high mountains",
         evento:"2021 IEEE XXVIII International Conference on Electronics, Electrical Engineering and Computing (INTERCON)",
         tipo:"Ponencia oral",

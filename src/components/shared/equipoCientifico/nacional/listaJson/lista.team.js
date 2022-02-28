@@ -52,8 +52,8 @@ export const listTeamInaigem = [
       ruta:'jean-pol-lujan-leon',
       foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_pol_lujan.png?alt=media&token=745ba0a1-4530-4b87-a373-e73977464c6c',
       name:'Jean Pol J. Luján León',
-      profesión: 'Bach. Ingeniería Mecatrónica',
-      cargo: 'Tesista de pregrado y gestor tecnológico' 
+      profesión:'Ingeniero Mecatrónico',
+      cargo:'Tesista de pregrado y gestor tecnológico'
     },
     {
       id:8,
@@ -94,6 +94,46 @@ export const listTeamInaigem = [
       name: 'Alexzander Santiago Martel',
       profesión:'Ingeniero Ambiental',
       cargo: 'Tesista de postgrado' 
+    },
+    {
+      id:13,
+      ruta:'guadalupe-angélica-heredia-gutierrez',
+      foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_guadalupe_heredia.png?alt=media&token=17038186-54b5-4561-ac2d-f0e825de5c57',
+      name: 'Guadalupe Angélica Heredia Gutierrez',
+      profesión:'Bachiller en Ingeniería Ambiental',
+      cargo: 'Voluntaria' 
+    },
+    {
+      id:14,
+      ruta:'yadira-andrea-curo-rosales',
+      foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_yadira_rosales.jpeg?alt=media&token=37e8ff34-adb3-4caf-aea1-7e2658307dc3',
+      name: 'Yadira Andrea Curo Rosales',
+      profesión:'Ingeniera Ambiental',
+      cargo: 'Voluntaria' 
+    },
+    {
+      id:15,
+      ruta:'eli-jadiel-chauca-figueroa',
+      foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_eli_jadiel.jpeg?alt=media&token=7cc8ae6b-d621-4915-9228-7549205cadb1',
+      name: 'Elí Jadiel Chauca Figueroa',
+      profesión:'Ingeniero Ambiental',
+      cargo: 'Voluntario' 
+    },
+    {
+      id:16,
+      ruta:'victor-smith-medina-cotrina',
+      foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_victor_medina.png?alt=media&token=1b06e441-596e-4b1e-a911-543cebfafbe8',
+      name: 'Víctor Smith Medina Cotrina',
+      profesión:'Bachiller en Ingeniería Ambiental',
+      cargo: 'Voluntario' 
+    },
+    {
+      id:17,
+      ruta:'miluska-pamela-alejo-mosquera',
+      foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-perugrows.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_pamela_alejo.png?alt=media&token=d6dfc686-5dd6-4eb0-9383-9e9f4c5d967a',
+      name:'Miluska Pamela Alejo Mosquera',
+      profesión:'Ingeniera Ambiental',
+      cargo: 'Voluntaria' 
     },
 
 ]

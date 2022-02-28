@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import NavMobile from './components/nav.mobile';
+import NavMobileIndex from './components/nav.mobile.index';
 
 export default function Nav(){
     const [state, setState] = useState(false);
@@ -26,7 +26,7 @@ export default function Nav(){
                     }
                     <Image src='/logos/INAIGEM.svg' height={50} width={180}/>
                 </div>
-                { !state ? null: <NavMobile />} 
+                { !state ? null: <NavMobileIndex />} 
             </nav>
             <nav className='fixed h-20 flex justify-between items-center px-10 w-full hidden lg:flex z-30 background-color' >
                 <Link href='/'>
@@ -35,7 +35,7 @@ export default function Nav(){
                     </a>
                 </Link>
                 <div className='flex gap-7'>
-                    <a href='#proyecto'><h1 className='text-white cursor-pointer border-b-2 border-transparent hover:border-white'>Resumen</h1></a>
+                    <Link href="/" ><a><h1 className='text-white cursor-pointer border-b-2 border-transparent hover:border-white'>Inicio</h1></a></Link>
                     <Link href="/equipo-cientifico/integrantes"><a><h1 className='text-white cursor-pointer border-b-2 border-transparent hover:border-white'>Equipo científico</h1></a></Link>
                     <Link href="/produccion/cientifica"><a><h1 className='text-white cursor-pointer border-b-2 border-transparent hover:border-white'>Producción científica</h1></a></Link>
                     <Link href="/galeria"><a><h1 className='text-white cursor-pointer border-b-2 border-transparent hover:border-white'>Galería</h1></a></Link>

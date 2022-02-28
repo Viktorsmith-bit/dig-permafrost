@@ -51,7 +51,7 @@ export default function Panoramicas(props){
                                                     </div>
                                                     <h1 className='text-base mt-5 text-color text-justify'> {e.descripcion}</h1>
                                                 </div>
-                                            <h1 className='text-xs text-justify text-color text-color'>©2021 Permafrost. Todos los derechos reservados. Para obtener la imagen en calidad original ponerse en contacto al correo katydamacia@hotmail.com.</h1>
+                                            <h1 className='text-xs text-justify text-color text-color'>©2022 Permafrost. Todos los derechos reservados. Para obtener la imagen en calidad original ponerse en contacto al correo katydamacia@hotmail.com.</h1>
                                         </div>
                                         <div className='relative'>
                                             <iframe className='flex-1 panam' src={`${e.url}`} allowfullscreen="" loading="lazy"></iframe>
