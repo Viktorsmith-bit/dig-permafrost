@@ -250,3 +250,22 @@ export const listaTesis = [
         link:null
     }
 ]
+
+export const listaPatentes = [
+    {
+        id:1,
+        titulo: "Estación pluviométrica que determina el pH de la precipitación mediante pluviómetro de acumulación con desfogue automático",
+        tipo:"Solicitud de patente de modelo de utilidad",
+        expediente:"2021-V01-195814",
+        estado:"en proceso y revisión de la solicitud",
+        link:null
+    },
+    {
+        id:2,
+        titulo: "Código de programación para el microcontrolador Arduino Mega 2560",
+        tipo:"solicitud de derecho de autor",
+        expediente:"62071",
+        estado:"en proceso y revisión de la solicitud",
+        link:null
+    }
+]

@@ -28,7 +28,7 @@ export default function Organizaciones(){
                     </div>
                 </div>
             </div>
-            <div className='flex-1 h-screen image-organizaciones hidden lg:block'></div>
+            <div className='flex-1 image-organizaciones hidden lg:block cover-orga'></div>
         </div>
     );
 }

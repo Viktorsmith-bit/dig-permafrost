@@ -21,7 +21,8 @@ export default function Resumen(){
                     </svg>
                     {state === 1?<Naional />:null}
                     {state === 2?<Extranjero />:null}
-                    <svg onClick={state === 2?null:continueCount} xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#4f4e50" className="cursor-pointer bi bi-arrow-right-square-fill" viewBox="0 0 16 16">
+                    {state === 3?<Extras />:null}
+                    <svg onClick={state === 3?null:continueCount} xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#4f4e50" className="cursor-pointer bi bi-arrow-right-square-fill" viewBox="0 0 16 16">
                         <path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"/>
                     </svg>
                 </div>
@@ -33,18 +34,18 @@ export default function Resumen(){
 
 function Naional(){
     return(
-        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full animate__animated lg:animate__bounceInLeft'>
+        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full'>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña</h1>
                 <h1 className='text-sm mt-1 text-color'>INAIGEM</h1>
-                <h1 className='text-sm mt-1 text-color'>Entidad ejecutora peruana</h1>
+                <h1 className='text-sm mt-1 text-color'>Entidad ejecutora</h1>
                 <h1 className='mt-5 text-color text-justify'>Mapeo de las formas de permafrost, diseño del prototipo de estación meteorológica, mapeo del perfil de las temperaturas del suelo y modelamiento del permafrost a nivel nacional.</h1>
             </div>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Universidad Nacional Santiago Antúnez de Mayolo</h1>
                 <h1 className='text-sm mt-1 text-color'>UNASAM</h1>
                 <h1 className='text-sm mt-1 text-color'> Entidad asociada peruana</h1>
-                <h1 className='mt-5 text-color text-justify'>Mapeo de la superficie de suelo, cobertura vegetal y línea de congelamiento.</h1>
+                <h1 className='mt-5 text-color text-justify'>Mapeo de la superficie del suelo, cobertura vegetal y línea de congelamiento.</h1>
             </div>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Universidad Nacional de Ingeniería</h1>
@@ -58,7 +59,7 @@ function Naional(){
 
 function Extranjero(){
     return(
-        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full animate__animated lg:animate__bounceInRight'>
+        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full'>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>University of Zurich</h1>
                 <h1 className='text-sm mt-1 text-color'>UZH</h1>
@@ -69,13 +70,32 @@ function Extranjero(){
                 <h1 className='font-bold text-color'>University of Huddersfield</h1>
                 <h1 className='text-sm mt-1 text-color'>UH</h1>
                 <h1 className='text-sm mt-1 text-color'>Entidad asociada británica</h1>
-                <h1 className='mt-5 text-color text-justify'>Asesoramiento sobre el mapeo de formas de permafrost.</h1>
+                <h1 className='mt-5 text-color text-justify'>Asesoramiento y divulgación de los resultados de las investigaciones de permafrost.</h1>
             </div>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Université Savoie Mont Blanc</h1>
                 <h1 className='text-sm mt-1 text-color'>USMB</h1>
                 <h1 className='text-sm mt-1 text-color'>Entidad colaboradora francesa</h1>
-                <h1 className='mt-5 text-color text-justify'>Asesoramiento sobre la instalación de sensores de paredes de roca, formas y modelamiento del permafrost.</h1>
+                <h1 className='mt-5 text-color text-justify'>Asesoramiento sobre la instalación de sensores de paredes de roca, formas y modelamiento de permafrost.</h1>
+            </div>
+        </div>
+    );
+}
+
+function Extras(){
+    return(
+        <div className='flex flex-wrap md:justify-center lg:justify-center gap-10 w-full'>
+            <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
+                <h1 className='font-bold text-color'>Instituto de Investigación y Conservación de las Montañas</h1>
+                <h1 className='text-sm mt-1 text-color'>IIGM</h1>
+                <h1 className='text-sm mt-1 text-color'>Entidad colaboradora peruana</h1>
+                <h1 className='mt-5 text-color text-justify'>Apoyo logístico y de diseño gráfico para la realización del evento de cierre y difusión del proyecto.</h1>
+            </div>
+            <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
+                <h1 className='font-bold text-color'>Grupo de Investigación Criósfera, Clima y Seguridad Hídrica</h1>
+                <h1 className='text-sm mt-1 text-color'>CCSH</h1>
+                <h1 className='text-sm mt-1 text-color'>Entidad colaboradora peruana</h1>
+                <h1 className='mt-5 text-color text-justify'>Apoyo en el asesoramiento de tesis de maestría, asistencia técnica y académica en la redacción científica y procesamiento de datos meteorológicos.</h1>
             </div>
         </div>
     );

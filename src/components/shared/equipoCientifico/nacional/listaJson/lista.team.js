@@ -37,7 +37,7 @@ export const listTeamInaigem = [
       foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_judy_salazar.jpeg?alt=media&token=c006759e-2080-48e0-8ba8-4c9bcf0d3826',
       name: 'Judy Maritza Salazar Alvaron',
       profesión: 'Licenciada en Contabilidad',
-      cargo: 'Coordinadora administrativa' 
+      cargo: 'Apoyo administrativo' 
     },
     {
       id:6,
@@ -45,7 +45,7 @@ export const listTeamInaigem = [
       foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_edi_yocsari.jpeg?alt=media&token=4a7d0982-37ca-427b-8141-8daca3e7bedd',
       name: 'Edi Yocsari Séptimo Villacaqui',
       profesión: 'Licenciada en Contabilidad',
-      cargo: 'Coordinadora administrativa' 
+      cargo: 'Apoyo administrativo' 
     },
     {
       id:7,
@@ -76,7 +76,7 @@ export const listTeamInaigem = [
       ruta:'edwin-noe-badillo-rivera',
       foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil-edwin-badillo.jpeg?alt=media&token=227bff82-bc14-42e1-899b-93da3bdb2a91',
       name:'Edwin Noé Badillo Rivera',
-      profesión: 'Bach. en Ingeniería Ambiental y de Recursos Naturales',
+      profesión:'Ingeniero Ambiental y de Recursos Naturales',
       cargo: 'Tesista de pregrado' 
     },
     {

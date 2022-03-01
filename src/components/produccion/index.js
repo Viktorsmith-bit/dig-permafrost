@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Eventos from './components/eventos';
 import Articulos from './components/articulos';
 import Tesis from './components/tesis';
+import Patentes from './components/patentes';
 import Footer from '../shared/footer/footer';
 
 export default function Galeria(){ 
@@ -42,8 +43,8 @@ export default function Galeria(){
                             <h1 onClick={tesis} className='flex items-center text-base lg:h-4 text-color cursor-pointer'>Tesis de pregrado y postgrado</h1>
                         </div>
                         <div className='flex items-center gap-2'>
-                            <div className={`h-4 w-4 rounded-sm border-color ${!state.patentes?'background-color':'gray-color'}`}></div>
-                            <h1 className='flex items-center text-base lg:h-4 text-color'>Patentes y derechos de autor</h1>
+                            <div onClick={patentes} className={`h-4 w-4 cursor-pointer rounded-sm border-color ${!state.patentes?'background-color':'bg-white'}`}></div>
+                            <h1 onClick={patentes} className='flex items-center cursor-pointer text-base lg:h-4 text-color'>Patentes y derechos de autor</h1>
                         </div>
                     </div>
                 </div>
@@ -52,6 +53,7 @@ export default function Galeria(){
             {state.event?<Eventos />:null}
             {state.articulos?null:<Articulos />}
             {state.tesis?null:<Tesis />}
+            {state.patentes?null:<Patentes />}
             <Footer />
         </div>
     );

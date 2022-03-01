@@ -196,6 +196,10 @@
   object-fit: cover;
   object-position: 80% 80%;
 }
+.cover-orga {
+  object-fit: cover;
+  object-position: 10% 80%;
+}
 .degraded {
   background: linesar-gradient(
     90deg,

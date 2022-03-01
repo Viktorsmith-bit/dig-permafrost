@@ -41,7 +41,7 @@ export default function Contacto(){
                         </svg>
                     </a>
                 </div>    
-                <h1 className='text-white w-fyll md:max-w-2xl lg:max-w-3xl text-sm lg:text-base border border-white p-4 rounded-md text-justify'> Para mayor información comunicarse con la investigadora principal Katy Medina Marcos: kmedina@inaigem.gob.pe y katydamacia@hotmail.com.</h1>
+                <h1 className='text-white w-fyll md:max-w-2xl lg:max-w-3xl text-sm lg:text-base border border-white p-4 rounded-md text-justify'> Para mayor información comunicarse con la investigadora principal Katy D. Medina Marcos: kmedina@inaigem.gob.pe y katydamacia@hotmail.com.</h1>
             </div>
         </div>
     );

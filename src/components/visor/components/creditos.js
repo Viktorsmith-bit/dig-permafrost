@@ -9,7 +9,6 @@ export default function Creditos(){
                 <a href='https://www.bancomundial.org/es/home' target='_blank'><img className='h-7 cursor-pointer' src='/logos/perugrows/Logo-BancoMundial.png'/></a>
             </div>
             <div className='flex flex-wrap items-center gap-4 py-1 px-3 bg-white rounded-r-sm'>
-                <a href='http://portal.concytec.gob.pe/index.php' target='_blank'><img className='h-7 cursor-pointer' src='/logos/visor/LogoINAIGEM_v2.png'/></a>
                 <a href='http://portal.concytec.gob.pe/index.php' target='_blank'><img className='h-7 cursor-pointer' src='/logos/visor/UNASAM_Logo.png'/></a>
                 <a href='http://portal.concytec.gob.pe/index.php' target='_blank'><img className='h-7 cursor-pointer' src='/logos/visor/UNI_Logo_Sf.png'/></a>
                 <a href='http://portal.concytec.gob.pe/index.php' target='_blank'><img className='h-7 cursor-pointer' src='/logos/visor/UniversidadHuddersfield_Logo_Sf.png'/></a>
