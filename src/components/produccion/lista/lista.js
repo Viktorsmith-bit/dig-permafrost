@@ -263,7 +263,7 @@ export const listaPatentes = [
     {
         id:2,
         titulo: "Código de programación para el microcontrolador Arduino Mega 2560",
-        tipo:"solicitud de derecho de autor",
+        tipo:"Solicitud de derecho de autor",
         expediente:"62071",
         estado:"en proceso y revisión de la solicitud",
         link:null

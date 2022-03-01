@@ -21,7 +21,7 @@ export default function Proyectos(){
     return(
         <div id='proyecto'>
             {!state?null:<Resumen closeModalResumen={closeModalResumen} />}
-            <div className='flex items-center items-center lg:h-screen py-10 lg:py-0 bg-gray-100 height-section'>
+            <div className='flex items-center items-center bg-gray-100 height-section'>
                 <div className='flex w-full lg:flex-1 justify-center px-4 lg:px-0'>
                     <div className='w-full md:max-w-2xl lg:max-w-xl'>
                         <h1 className='text-2xl lg:text-4xl font-bold text-color'>Resumen</h1>
