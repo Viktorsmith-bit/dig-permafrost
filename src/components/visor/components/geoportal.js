@@ -1,11 +1,10 @@
-import React, { Fragment } from 'react';
-import Image from 'next/image';
+import React from 'react';
 
 export default function Geoportal(){
     return(
         <div className='flex absolute top-3 left-12 z-20 hidden md:flex lg:flex' style={{zIndex:"1000"}}>
-            <div className='py-2 bg-green-700 rounded-l-sm' >
-                <Image src='/logos/INAIGEM.svg' height={39} width={180}/>
+            <div className='p-2.5 bg-green-700 rounded-l-sm' >
+                <img className='w-40'  src='/logos/INAIGEM.svg' />
             </div>
             <div className='flex items-center px-2 bg-white rounded-r-sm'>
                 <div>

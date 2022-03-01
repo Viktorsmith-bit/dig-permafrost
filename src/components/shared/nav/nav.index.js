@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import NavMobile from './components/nav.mobile';
 
 export default function Nav(){
@@ -24,7 +23,7 @@ export default function Nav(){
                             <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                         </svg>
                     }
-                    <Image src='/logos/INAIGEM.svg' height={50} width={180}/>
+                    <img className='w-40' src='/logos/INAIGEM.svg'/>
                 </div>
                 { !state ? null: <NavMobile />} 
             </nav>
@@ -42,7 +41,7 @@ export default function Nav(){
                     <Link href="/visor/mapa"><a><h1 className='text-white cursor-pointer border-b-2 border-transparent hover:border-white'>Visor de mapas</h1></a></Link>
                     <a href='#contacto'><h1 className='text-white cursor-pointer border-b-2 border-transparent hover:border-white'>Contacto</h1></a>
                 </div> 
-                <Image src='/logos/INAIGEM.svg' height={40} width={170}/>
+                <img className='w-40'  src='/logos/INAIGEM.svg' />
             </nav>
         </nav>
     );
