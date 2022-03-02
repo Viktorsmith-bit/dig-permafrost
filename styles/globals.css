@@ -157,29 +157,16 @@
   }
 }
 
-@media (min-width: 1280px) {
-  .panam {
-    height: 39rem;
-    width: 51rem;
-  }
-  .height-image {
-    height: 37rem;
-  }
-  .width-image {
-    width: 51rem;
-  }
-}
-
 @media (min-width: 1536px) {
   .panam {
-    height: 41rem;
-    width: 51rem;
+    height: 42rem;
+    width: 58rem;
   }
   .height-image {
-    height: 39rem;
+    height: 42rem;
   }
   .width-image {
-    width: 51rem;
+    width: 58rem;
   }
 }
 
