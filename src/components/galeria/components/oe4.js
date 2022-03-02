@@ -17,6 +17,9 @@ export default function Impactos(){
         })
         const x = document.getElementsByTagName('BODY')[0];
         x.style.overflow = 'hidden';
+        document.oncontextmenu = function(){
+            return false
+        }
     }
     
     function closeModal(e){

@@ -19,12 +19,6 @@ export default function Modal(props){
             return setState(state - 1)
         }
     }
-    const disable = ()=>{
-        document.oncontextmenu = function(){
-            
-            return false
-        }
-    }
 
     return(
         <div className='absolute h-screen top-0 z-40 w-full'>

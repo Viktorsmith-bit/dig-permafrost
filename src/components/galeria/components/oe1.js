@@ -17,6 +17,9 @@ export default function Socios(){
         })
         const x = document.getElementsByTagName('BODY')[0];
         x.style.overflow = 'hidden';
+        document.oncontextmenu = function(){
+            return false
+        }
     }
 
     function closeModal(e){
@@ -25,7 +28,7 @@ export default function Socios(){
         const x = document.getElementsByTagName('BODY')[0];
         x.style.overflow = 'visible';
     }
-
+    
     return(
         <div className='py-10'>
             {
