@@ -8,17 +8,17 @@ export default function Produccion(){
                 <h1 className=''></h1>
                 <div className='flex flex-wrap justify-center lg:justify-between gap-3 mt-8 lg:mt-16 w-full'>
                     <div className='content'>
-                       <Link href='/equipo-cientifico/integrantes'><a><img className='w-full md:w-80 lg:w-96 md:h-56 lg:h-72 cover' src='/fondos/equipo_cientifico.jpeg' /></a></Link>
+                       <Link href='/equipo-cientifico/integrantes'><a><img className='rounded-sm w-full md:w-80 lg:w-96 md:h-56 lg:h-72 cover' src='/fondos/EquipoCientifico_Permafrost_edit.jpeg' /></a></Link>
                        <h1 className='mt-2 text-center text-color font-bold'>EQUIPO CIENTÍFICO</h1>
                     </div>
                     <div className='content'>
                         <Link href='/produccion/cientifica'>
-                            <a><img className='w-full md:w-80 lg:w-96 md:h-56 lg:h-72 cover' src='/fondos/TrabajosCampo_Permafrost_2.jpeg' /></a>
+                            <a><img className='rounded-sm w-full md:w-80 lg:w-96 md:h-56 lg:h-72 cover' src='/fondos/TrabajosCampo_Permafrost_2.jpeg' /></a>
                         </Link>
                         <h1 className='mt-2 text-center text-color font-bold'>PRODUCCIÓN CIENTÍFICA</h1>       
                     </div>
                     <div className='content'>
-                        <Link href='/visor/mapa'><a><img className='w-full md:w-80 lg:w-96 md:h-56 lg:h-72 cover' src='/fondos/visor_de_mapas.jpeg' /> </a></Link>
+                        <Link href='/visor/mapa'><a><img className='rounded-sm w-full md:w-80 lg:w-96 md:h-56 lg:h-72 cover' src='/fondos/visor_de_mapas.jpeg' /> </a></Link>
                         <h1 className='mt-2 text-center text-color font-bold'>VISOR DE MAPAS</h1>
                     </div>
                 </div>

@@ -101,7 +101,7 @@
     height: 40rem;
   }
   .height-image {
-    height: 35rem;
+    height: 37rem;
   }
   .width-image {
     width: 51rem;
@@ -128,7 +128,7 @@
     height: 33rem;
   }
   .panam {
-    height: 37rem;
+    height: 36rem;
     width: 51rem;
   }
   .absolute-capas {
@@ -159,14 +159,14 @@
 
 @media (min-width: 1536px) {
   .panam {
-    height: 42rem;
-    width: 58rem;
+    height: 44rem;
+    width: 60em;
   }
   .height-image {
-    height: 42rem;
+    height: 44rem;
   }
   .width-image {
-    width: 58rem;
+    width: 60rem;
   }
 }
 
