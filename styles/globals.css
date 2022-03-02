@@ -251,3 +251,6 @@ body {
 .gray-color {
   background-color: #e6e7e8;
 }
+.opacity-button {
+  background: rgba(20, 20, 20, 0.8);
+}

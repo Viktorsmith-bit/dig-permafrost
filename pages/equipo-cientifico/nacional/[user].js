@@ -63,8 +63,8 @@ export default function Home () {
                                         </div>
                                         <div className='w-10 h-1 background-color mx-auto mt-5'></div>
                                         <div className='descripcion mt-10'>
-                                            <h1 className='text-base text-gray-700 text-justify text-color'>{item.especialidad}</h1>
-                                            <h1 className='mt-3 text-base text-gray-700 text-justify text-color'>{item.descripcion}</h1>
+                                            <h1 className='text-base text-justify text-color'>{item.especialidad}</h1>
+                                            <h1 className='mt-3 text-base text-justify text-color'>{item.descripcion}</h1>
                                         </div>                              
                                         <div className='footer mt-10 mr-auto'>
                                             <div className='flex flex-wrap redes gap-2'>

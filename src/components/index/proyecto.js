@@ -22,7 +22,7 @@ export default function Proyectos(){
         <div id='proyecto'>
             {!state?null:<Resumen closeModalResumen={closeModalResumen} />}
             <div className='flex items-center items-center bg-gray-100 height-section'>
-                <div className='flex w-full lg:flex-1 justify-center px-4 lg:px-0'>
+                <div className='flex w-full lg:flex-1 justify-center px-4 lg:px-0 py-10 lg:py-0'>
                     <div className='w-full md:max-w-2xl lg:max-w-xl'>
                         <h1 className='text-2xl lg:text-4xl font-bold text-color'>Resumen</h1>
                         <h1 className='mt-5 text-justify text-color'>El permafrost puede representar una reserva de agua dulce potencialmente significativa y su contribución a los recursos hídricos locales probablemente aumente en el futuro a medida que los glaciares se retiren hacia elevaciones superiores y desaparezcan como respuesta al cambio climático. Sin embargo, a pesar del potencial de este recurso, a la fecha, en el Perú existen pocos estudios sobre su valoración como recurso hídrico y hace falta un inventario de su distribución que sirva como insumo para la gestión de los recursos hídricos.</h1>

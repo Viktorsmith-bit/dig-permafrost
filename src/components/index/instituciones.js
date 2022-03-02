@@ -34,7 +34,7 @@ export default function Resumen(){
 
 function Naional(){
     return(
-        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full'>
+        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full animate__animated animate__bounceInLeft'>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Instituto Nacional de Investigación en Glaciares y Ecosistemas de Montaña</h1>
                 <h1 className='text-sm mt-1 text-color'>INAIGEM</h1>
@@ -59,7 +59,7 @@ function Naional(){
 
 function Extranjero(){
     return(
-        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full'>
+        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full animate__animated animate__bounceInRight'>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>University of Zurich</h1>
                 <h1 className='text-sm mt-1 text-color'>UZH</h1>
@@ -76,7 +76,7 @@ function Extranjero(){
                 <h1 className='font-bold text-color'>Université Savoie Mont Blanc</h1>
                 <h1 className='text-sm mt-1 text-color'>USMB</h1>
                 <h1 className='text-sm mt-1 text-color'>Entidad colaboradora francesa</h1>
-                <h1 className='mt-5 text-color text-justify'>Asesoramiento sobre la instalación de sensores de paredes de roca, formas y modelamiento de permafrost.</h1>
+                <h1 className='mt-5 text-color text-justify'>Asesoramiento sobre la instalación de sensores de paredes de roca, identificación de glaciares rocosos y modelamiento de permafrost.</h1>
             </div>
         </div>
     );
@@ -84,7 +84,7 @@ function Extranjero(){
 
 function Extras(){
     return(
-        <div className='flex flex-wrap md:justify-center lg:justify-center gap-10 w-full'>
+        <div className='flex flex-wrap md:justify-center lg:justify-center gap-4 w-full animate__animated animate__bounceInRight'>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Instituto de Investigación y Conservación de las Montañas</h1>
                 <h1 className='text-sm mt-1 text-color'>IIGM</h1>

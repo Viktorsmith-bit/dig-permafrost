@@ -36,7 +36,7 @@ export default function Modal(props){
                                                 <code><h1 onClick={next} className='flex justify-center items-center absolute bottom-0 left-0 lg:hidden bg-gray-100 color w-12 h-12 text-xl cursor-pointer'>{`<`}</h1></code>
                                                 <code><h1 onClick={back} className='flex justify-center items-center absolute bottom-0 right-0 lg:hidden bg-gray-100 color w-12 h-12 text-xl cursor-pointer'>{`>`}</h1></code>
                                             </>
-                                            <svg onClick={props.close} xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" className="absolute top-3 left-3 cursor-pointer bi bi-x-lg" viewBox="0 0 16 16">
+                                            <svg onClick={props.close} xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" className="absolute opacity-button rounded-sm p-2 top-4 left-4 cursor-pointer bi bi-x-lg" viewBox="0 0 16 16">
                                                 <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
                                             </svg>
                                         </div>
@@ -61,7 +61,6 @@ export default function Modal(props){
                         </div>
                         <code><h1 onClick={back} className='hidden lg:flex justify-center items-center bg-gray-100 color w-12 h-12 text-xl cursor-pointer'>{`>`}</h1></code>
                     </div>
-                    
                 </div>
             </div>
         </div>

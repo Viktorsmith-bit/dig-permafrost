@@ -28,7 +28,7 @@ export const listTeamInaigem = [
       ruta:'sofia-cristina-rodriguez-venturo',
       foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil-sofia-rodriguez.jpg?alt=media&token=9913577f-c546-41fd-9305-5815b428b35b',
       name:'Sofia Cristina A. Rodriguez Venturo',
-      profesión:'Bach. Microbiología y Parasitología',
+      profesión:'Licenciada en Microbiología y Parasitología',
       cargo: 'Asistente de investigación' 
     },
     {
@@ -60,7 +60,7 @@ export const listTeamInaigem = [
       ruta:'ericsson-lorgio-lopez-vega',
       foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil_ericsson_lopez.jpeg?alt=media&token=bcb3cb19-5976-4c9e-ab2b-e8034faa5945',
       name:'Ericsson Lorgio López Vega',
-      profesión: 'Bach. Ingeniería Electrónica',
+      profesión: 'Ingeniero Electrónico',
       cargo:'Tesista de pregrado' 
     },
     {
@@ -77,7 +77,7 @@ export const listTeamInaigem = [
       foto:'https://firebasestorage.googleapis.com/v0/b/proyecto-permafrost-45b38.appspot.com/o/equipo-cientifico%2Fnacional%2Finaigem%2Fperfil-edwin-badillo.jpeg?alt=media&token=227bff82-bc14-42e1-899b-93da3bdb2a91',
       name:'Edwin Noé Badillo Rivera',
       profesión:'Ingeniero Ambiental y de Recursos Naturales',
-      cargo: 'Tesista de pregrado' 
+      cargo: 'Tesista de pregrado y asistente de investigación' 
     },
     {
       id:11,

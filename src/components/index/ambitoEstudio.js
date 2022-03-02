@@ -36,7 +36,7 @@ export default function Ambito(){
                 <div className='flex-1'>
                     <img className='cover hidden lg:block height-section' src='/fondos/TrabajosModelamiento_Permafrost.jpeg' />
                 </div>
-                <div className='flex w-full lg:flex-1 justify-center px-4 lg:px-0'>
+                <div className='flex w-full lg:flex-1 justify-center px-4 lg:px-0 py-10 lg:py-0'>
                     <div className='w-full md:max-w-2xl lg:max-w-xl'>
                         <h1 className='text-2xl lg:text-4xl font-bold text-color'>Ámbito de estudio</h1>
                         <h1 className='text-base mt-5 text-justify text-color'>El modelamiento del permafrost se realizó en las 20 cordilleras glaciares del Perú. Mientras que, los trabajos de campo se desarrollaron en las cordilleras Blanca (Áncash) y Chila (Arequipa) para validación del modelamiento de permafrost.</h1>
