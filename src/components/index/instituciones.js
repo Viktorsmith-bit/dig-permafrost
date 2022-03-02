@@ -59,7 +59,7 @@ function Naional(){
 
 function Extranjero(){
     return(
-        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full animate__animated animate__bounceInRight'>
+        <div className='flex flex-wrap gap-2 lg:gap-0 md:justify-center lg:justify-between w-full animate__animated animate__bounceInLeft'>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>University of Zurich</h1>
                 <h1 className='text-sm mt-1 text-color'>UZH</h1>
@@ -84,7 +84,7 @@ function Extranjero(){
 
 function Extras(){
     return(
-        <div className='flex flex-wrap md:justify-center lg:justify-center gap-4 w-full animate__animated animate__bounceInRight'>
+        <div className='flex flex-wrap md:justify-center lg:justify-center gap-4 w-full animate__animated animate__bounceInLeft'>
             <div className='w-full md:w-96 lg:w-96 lg:h-64 border-color p-4 rounded-md'>
                 <h1 className='font-bold text-color'>Instituto de Investigación y Conservación de las Montañas</h1>
                 <h1 className='text-sm mt-1 text-color'>IIGM</h1>
