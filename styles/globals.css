@@ -7,10 +7,10 @@
   width: 100%;
 }
 .height-image {
-  height: 20rem;
+  height: 21rem;
 }
 .width-image {
-  width: 60rem;
+  width: 100%rem;
 }
 .width-perfil {
   width: 100%;
@@ -20,7 +20,7 @@
   height: 27rem;
 }
 .panam {
-  height: 20rem;
+  height: 21rem;
   width: 100%;
 }
 .absolute-capas {
@@ -70,7 +70,7 @@
     width: 20rem;
   }
   .panam {
-    height: 20rem;
+    height: 25rem;
     width: 100%;
   }
   .height-visor {
@@ -128,7 +128,7 @@
     height: 33rem;
   }
   .panam {
-    height: 36rem;
+    height: 37rem;
     width: 51rem;
   }
   .absolute-capas {
