@@ -13,7 +13,7 @@ export default function Northumbria(){
                 {
                     listTeamNorthumbria.map((item)=>{
                         return <div key={item.id} className='flex items-center h-32 width-perfil'>
-                                        <Link href={`/equipo-cientifico/internacional/${item.ruta}`}><div className='h-32 w-48 rounded-full'><img className='w-48 h-32 rounded-full cursor-pointer cover-image' src={`${item.foto}`}/></div></Link>
+                                        <Link href={`/equipo-cientifico/internacional/${item.ruta}`}><div className='h-32 w-48 rounded-full'><img className='w-48 h-32 rounded-full cursor-pointer cover-image border border-gray-200' src={`${item.foto}`}/></div></Link>
                                         <div className='w-full flex h-32 flex-col justify-center px-4'>
                                         <Link href={`/equipo-cientifico/internacional/${item.ruta}`}><h1 className='text-sm lg:text-base text-color font-bold cursor-pointer'>{item.name}</h1></Link>
                                         <h1 className='text-sm text-color'>{item.profesión}</h1>
