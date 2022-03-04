@@ -47,9 +47,6 @@
 .height-section {
   height: auto;
 }
-.hight-portada {
-  height: auto;
-}
 
 @media (min-width: 768px) {
   .height {
@@ -95,9 +92,6 @@
     right: 12px;
   }
   .height-section {
-    height: auto;
-  }
-  .hight-portada {
     height: auto;
   }
 }
@@ -161,9 +155,6 @@
   .height-section {
     height: 40rem;
   }
-  .hight-portada {
-    height: 100%;
-  }
 }
 
 @media (min-width: 1536px) {
@@ -176,9 +167,6 @@
   }
   .width-image {
     width: 60rem;
-  }
-  .hight-portada {
-    height: 50rem;
   }
 }
 
